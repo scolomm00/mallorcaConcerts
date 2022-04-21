@@ -4,16 +4,16 @@
     .product-image{
 
         .product-image-main{
-
+            border: 2px solid hsl(0, 0%, 100%);
         }
 
         .product-image-small{
-
+            margin: 2%;
         }
     }
 
     .product-text{
-        margin-left: 2%;
+        margin-left: 10%;
 
         .product-text-title{
 
@@ -43,19 +43,19 @@
             }
 
             .product-text-day-counter{
-                
-                
+                display: inline-flex;
                 .product-text-day-counter-button-rest{
-
+ 
                     button{
-                        border-radius: 5px;
+                        border-radius: 1rem 0 0 1rem;
                         background-color: hsl(0, 100%, 50%);
                         color: hsl(0, 0%, 100%);
                         font-weight: 600;
+                        width: 2rem;
+                        height: 2rem;
 
                         &:hover{
                             cursor: pointer;
-                            border: 2px solid hsl(0, 0%, 100%);
                         }
                     }
                 }
@@ -63,21 +63,24 @@
                 .product-text-day-counter-num{
 
                     input{
-                        width: 2rem;
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        text-align: center;
                     }
                 }
 
                 .product-text-day-counter-button-addition{
 
                     button{
-                        border-radius: 5px;
+                        border-radius: 0 1rem 1rem 0;
                         background-color: hsl(120, 100%, 25%);
                         color: hsl(0, 0%, 100%);
                         font-weight: 600;
+                        width: 2rem;
+                        height: 2rem;
 
                         &:hover{
                             cursor: pointer;
-                            border: 2px solid hsl(0, 0%, 100%);
                         }
                     }
                 }

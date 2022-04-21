@@ -830,8 +830,14 @@ header {
 .product {
   margin: 5%;
 }
+.product .product-image .product-image-main {
+  border: 2px solid hsl(0deg, 0%, 100%);
+}
+.product .product-image .product-image-small {
+  margin: 2%;
+}
 .product .product-text {
-  margin-left: 2%;
+  margin-left: 10%;
 }
 .product .product-text .product-text-price {
   margin: 3% 0;
@@ -848,28 +854,35 @@ header {
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
 }
+.product .product-text .product-text-day .product-text-day-counter {
+  display: inline-flex;
+}
 .product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button {
-  border-radius: 5px;
+  border-radius: 1rem 0 0 1rem;
   background-color: hsl(0deg, 100%, 50%);
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
+  width: 2rem;
+  height: 2rem;
 }
 .product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button:hover {
   cursor: pointer;
-  border: 2px solid hsl(0deg, 0%, 100%);
 }
 .product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-num input {
-  width: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
 }
 .product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-addition button {
-  border-radius: 5px;
+  border-radius: 0 1rem 1rem 0;
   background-color: hsl(120deg, 100%, 25%);
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
+  width: 2rem;
+  height: 2rem;
 }
 .product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-addition button:hover {
   cursor: pointer;
-  border: 2px solid hsl(0deg, 0%, 100%);
 }
 .product .product-text .product-text-booking {
   margin-top: 6%;

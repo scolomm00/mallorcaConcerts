@@ -20,11 +20,13 @@
         }
 
         .product-text-price{
+
             margin: 3% 0;
+
             span{
                 color: hsl(0, 0%, 100%);
+                font-size: 1.5rem;
                 font-weight: 600;
-                text-decoration: underline;
             }
         }
 
@@ -33,7 +35,10 @@
         }
 
         .product-text-day{
+
             margin-top: 5%;
+            width: 70%;
+
             .product-text-day-letter{
                 
                 span{
@@ -43,7 +48,9 @@
             }
 
             .product-text-day-counter{
-                display: inline-flex;
+
+                display: flex;
+
                 .product-text-day-counter-button-rest{
  
                     button{
@@ -88,7 +95,9 @@
         }
 
         .product-text-booking{
+
             margin-top: 6%;
+
             .product-text-booking-button{
 
                 button{

@@ -844,18 +844,19 @@ header {
 }
 .product .product-text .product-text-price span {
   color: hsl(0deg, 0%, 100%);
+  font-size: 1.5rem;
   font-weight: 600;
-  text-decoration: underline;
 }
 .product .product-text .product-text-day {
   margin-top: 5%;
+  width: 70%;
 }
 .product .product-text .product-text-day .product-text-day-letter span {
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
 }
 .product .product-text .product-text-day .product-text-day-counter {
-  display: inline-flex;
+  display: flex;
 }
 .product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button {
   border-radius: 1rem 0 0 1rem;

@@ -2,6 +2,7 @@
     margin: 10%;
 
     .contact-title{
+        
         h1{
             text-align: center;
         }
@@ -10,35 +11,40 @@
     .contact-info{
         margin-top: 6%;
         width: 100%;
+
         .contact-info-tel{
             margin-bottom: 5%;
             font-size: 1.2rem;
+
             span{
-                color: white;
+                color: hsl(0, 0%, 100%);
             }
         }
 
         .contact-info-email{
             margin-bottom: 5%;
             font-size: 1.2rem;
+
             span{
-                color: white;
+                color: hsl(0, 0%, 100%);
             }
         }
 
         .contact-info-map{
             margin-bottom: 5%;
             font-size: 1.2rem;
+
             span{
-                color: white;
+                color: hsl(0, 0%, 100%);
             }
         }
 
         .contact-info-day{
             margin-bottom: 5%;
             font-size: 1.2rem;
+
             span{
-                color: white;
+                color: hsl(0, 0%, 100%);
             }
 
         }
@@ -46,8 +52,9 @@
         .contact-info-hour{
             margin-bottom: 5%;
             font-size: 1.2rem;
+
             span{
-                color: white;
+                color: hsl(0, 0%, 100%);
             }
 
         }
@@ -55,7 +62,7 @@
         svg{
             width: 1.2rem;
             height: 1.2rem;
-            color: white;
+            color: hsl(0, 0%, 100%);
             margin-right: 2%;
         }
 
@@ -63,10 +70,12 @@
 
     .contact-form{
         margin-top: 6%;
+
         .contact-span{
             margin-bottom: 2%;
+            
             span{
-                color: white;
+                color: hsl(0, 0%, 100%);
                 font-size: 1rem;
                 font-weight: 600;
             }
@@ -106,16 +115,16 @@
                 width: 8rem;
                 height: 2.5rem;
                 border-radius: 10px;
-                background-color: rgba(0, 0, 0, 0.548);
-                color: white;
-                border: 2px solid white;
+                background-color: hsla(0, 0%, 0%, 0.548);
+                color: hsl(0, 0%, 100%);
+                border: 2px solid hsl(0, 0%, 100%);
                 font-weight: 900;
 
                 &:hover{
                     cursor: pointer;
                     box-shadow: 5px 5px 15px 5px hsla(0, 100%, 50%, 0.835);
                    
-                    color: white;
+                    color: hsl(0, 0%, 100%);
                 }
             }
         }

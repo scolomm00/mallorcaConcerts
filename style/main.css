@@ -828,8 +828,67 @@ header {
 }
 
 .product {
-  margin: 2rem;
+  margin: 5%;
 }
+.product .product-text {
+  margin-left: 2%;
+}
+.product .product-text .product-text-price {
+  margin: 3% 0;
+}
+.product .product-text .product-text-price span {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+  text-decoration: underline;
+}
+.product .product-text .product-text-day {
+  margin-top: 5%;
+}
+.product .product-text .product-text-day .product-text-day-letter span {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button {
+  border-radius: 5px;
+  background-color: hsl(0deg, 100%, 50%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button:hover {
+  cursor: pointer;
+  border: 2px solid hsl(0deg, 0%, 100%);
+}
+.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-num input {
+  width: 2rem;
+}
+.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-addition button {
+  border-radius: 5px;
+  background-color: hsl(120deg, 100%, 25%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-addition button:hover {
+  cursor: pointer;
+  border: 2px solid hsl(0deg, 0%, 100%);
+}
+.product .product-text .product-text-booking {
+  margin-top: 6%;
+}
+.product .product-text .product-text-booking .product-text-booking-button button {
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.product .product-text .product-text-booking .product-text-booking-button button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
+  color: hsl(0deg, 0%, 100%);
+}
+
 .contact {
   margin: 10%;
 }
@@ -845,40 +904,40 @@ header {
   font-size: 1.2rem;
 }
 .contact .contact-info .contact-info-tel span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .contact .contact-info .contact-info-email {
   margin-bottom: 5%;
   font-size: 1.2rem;
 }
 .contact .contact-info .contact-info-email span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .contact .contact-info .contact-info-map {
   margin-bottom: 5%;
   font-size: 1.2rem;
 }
 .contact .contact-info .contact-info-map span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .contact .contact-info .contact-info-day {
   margin-bottom: 5%;
   font-size: 1.2rem;
 }
 .contact .contact-info .contact-info-day span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .contact .contact-info .contact-info-hour {
   margin-bottom: 5%;
   font-size: 1.2rem;
 }
 .contact .contact-info .contact-info-hour span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .contact .contact-info svg {
   width: 1.2rem;
   height: 1.2rem;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
   margin-right: 2%;
 }
 .contact .contact-form {
@@ -888,7 +947,7 @@ header {
   margin-bottom: 2%;
 }
 .contact .contact-form .contact-span span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
   font-size: 1rem;
   font-weight: 600;
 }
@@ -919,15 +978,15 @@ header {
   width: 8rem;
   height: 2.5rem;
   border-radius: 10px;
-  background-color: rgba(0, 0, 0, 0.548);
-  color: white;
-  border: 2px solid white;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
   font-weight: 900;
 }
 .contact .contact-form .contact-form-button button:hover {
   cursor: pointer;
   box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 
 /*# sourceMappingURL=main.css.map */

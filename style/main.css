@@ -906,89 +906,49 @@ header {
 .contact {
   margin: 10%;
 }
+.contact .contact-title {
+  margin-bottom: 5%;
+}
 .contact .contact-title h1 {
   text-align: center;
 }
-.contact .contact-info {
-  margin-top: 6%;
+.contact .contact-options .contact-info {
   width: 100%;
 }
-.contact .contact-info .contact-info-tel {
+.contact .contact-options .contact-info .contact-info-option {
   margin-bottom: 5%;
   font-size: 1.2rem;
 }
-.contact .contact-info .contact-info-tel span {
+.contact .contact-options .contact-info .contact-info-option span {
   color: hsl(0deg, 0%, 100%);
 }
-.contact .contact-info .contact-info-email {
-  margin-bottom: 5%;
-  font-size: 1.2rem;
-}
-.contact .contact-info .contact-info-email span {
-  color: hsl(0deg, 0%, 100%);
-}
-.contact .contact-info .contact-info-map {
-  margin-bottom: 5%;
-  font-size: 1.2rem;
-}
-.contact .contact-info .contact-info-map span {
-  color: hsl(0deg, 0%, 100%);
-}
-.contact .contact-info .contact-info-day {
-  margin-bottom: 5%;
-  font-size: 1.2rem;
-}
-.contact .contact-info .contact-info-day span {
-  color: hsl(0deg, 0%, 100%);
-}
-.contact .contact-info .contact-info-hour {
-  margin-bottom: 5%;
-  font-size: 1.2rem;
-}
-.contact .contact-info .contact-info-hour span {
-  color: hsl(0deg, 0%, 100%);
-}
-.contact .contact-info svg {
+.contact .contact-options .contact-info svg {
   width: 1.2rem;
   height: 1.2rem;
   color: hsl(0deg, 0%, 100%);
   margin-right: 2%;
 }
-.contact .contact-form {
-  margin-top: 6%;
+
+form .form-element {
+  margin-bottom: 1rem;
 }
-.contact .contact-form .contact-span {
-  margin-bottom: 2%;
+form .form-element .form-element-label {
+  margin-bottom: 0.5rem;
 }
-.contact .contact-form .contact-span span {
+form .form-element .form-element-label label {
   color: hsl(0deg, 0%, 100%);
   font-size: 1rem;
   font-weight: 600;
 }
-.contact .contact-form .contact-form-name {
-  margin-bottom: 5%;
-}
-.contact .contact-form .contact-form-tel {
-  margin-bottom: 5%;
-}
-.contact .contact-form .contact-form-surname {
-  margin-bottom: 5%;
-}
-.contact .contact-form .contact-form-email {
-  margin-bottom: 5%;
-}
-.contact .contact-form .contact-form-message {
-  margin-bottom: 7%;
-}
-.contact .contact-form .contact-form-message textarea {
+form .form-element textarea {
   width: 26rem;
   height: 8rem;
 }
-.contact .contact-form .contact-form-button {
+form .form-send-button {
   margin-left: auto;
   width: max-content;
 }
-.contact .contact-form .contact-form-button button {
+form .form-send-button button {
   width: 8rem;
   height: 2.5rem;
   border-radius: 10px;
@@ -997,10 +957,128 @@ header {
   border: 2px solid hsl(0deg, 0%, 100%);
   font-weight: 900;
 }
-.contact .contact-form .contact-form-button button:hover {
+form .form-send-button button:hover {
   cursor: pointer;
   box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
   color: hsl(0deg, 0%, 100%);
+}
+
+.cart {
+  margin: 5%;
+}
+.cart .cart-title {
+  margin-bottom: 5%;
+}
+.cart .cart-title h1 {
+  text-align: center;
+}
+.cart .cart-table table {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.cart .cart-table table th {
+  padding: 1rem;
+  border-bottom: 2px solid white;
+  color: white;
+}
+.cart .cart-table table td {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+.cart .cart-table table td img {
+  border: 1px solid white;
+  width: 5rem;
+  height: 5rem;
+}
+.cart .cart-table table td img:hover {
+  cursor: pointer;
+}
+.cart .product-text-day-counter {
+  display: flex;
+  justify-content: center;
+}
+.cart .product-text-day-counter .product-text-day-counter-button-rest button {
+  border-radius: 1rem 0 0 1rem;
+  background-color: hsl(0deg, 100%, 50%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+  width: 2rem;
+  height: 2rem;
+}
+.cart .product-text-day-counter .product-text-day-counter-button-rest button:hover {
+  cursor: pointer;
+}
+.cart .product-text-day-counter .product-text-day-counter-num input {
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+.cart .product-text-day-counter .product-text-day-counter-button-addition button {
+  border-radius: 0 1rem 1rem 0;
+  background-color: hsl(120deg, 100%, 25%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+  width: 2rem;
+  height: 2rem;
+}
+.cart .product-text-day-counter .product-text-day-counter-button-addition button:hover {
+  cursor: pointer;
+}
+.cart .cart-resume {
+  margin-left: auto;
+  width: 30%;
+  padding-bottom: 3rem;
+}
+.cart .cart-resume table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 2px solid white;
+  height: 10rem;
+}
+.cart .cart-resume table th {
+  border: 2px solid white;
+  background-color: white;
+}
+.cart .cart-resume table td {
+  text-align: center;
+  color: white;
+}
+.cart .cart-resume .cart-resume-button {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .cart-resume .cart-resume-button .cart-resume-button-return button {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.cart .cart-resume .cart-resume-button .cart-resume-button-return button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
+  color: hsl(0deg, 0%, 100%);
+}
+.cart .cart-resume .cart-resume-button .cart-resume-button-buy button {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.cart .cart-resume .cart-resume-button .cart-resume-button-buy button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 5px hsla(110deg, 100%, 50%, 0.835);
+  color: hsl(0deg, 0%, 100%);
+}
+.cart .cart-resume table tr:last-child {
+  border-top: 2px solid white;
 }
 
 /*# sourceMappingURL=main.css.map */

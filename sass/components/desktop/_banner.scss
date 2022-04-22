@@ -1,14 +1,17 @@
 .banner{
+
     border-top: solid 3px hsla(0, 100%, 50%, 0.493);
     border-bottom: solid 3px hsla(0, 100%, 50%, 0.541);
 
     .banner-text{
+
         left: 10%;
         position: absolute;
         top: 25vh;
         width: 70%;
 
         h1{
+
             font-family: fantasy;
             font-size: 200%;
             font-style: oblique;
@@ -19,11 +22,13 @@
     }
 
     .banner-button{
+
         position: absolute;
         left: 10%;
         top: 35vh;
 
         button{
+
             width: 15rem;
             height: 4rem;
             border-radius: 10px;
@@ -35,6 +40,7 @@
         }
 
         button:hover{
+            
             background-color: hsla(0, 0%, 38%, 0.938);
             box-shadow: 5px 5px 15px 5px hsla(0, 100%, 50%, 0.835);
         }

@@ -26,10 +26,6 @@
 
     .footer-logo{
 
-        .footer-logo-image{
-
-        }
-
         .footer-logo-social{
 
             display: flex;
@@ -41,11 +37,13 @@
                 margin-top: 5%;
 
                 svg{
+
                     width: 1.5rem;
                     height: 1.5rem;
                     color: white;
 
                     &:hover{
+                        
                         cursor: pointer;
                     }
                 }

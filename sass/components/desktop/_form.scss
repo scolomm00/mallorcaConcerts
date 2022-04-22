@@ -5,9 +5,11 @@ form{
         margin-bottom: 1rem;
 
         .form-element-label{
+
             margin-bottom: 0.5rem;
 
             label{
+
                 color: hsl(0, 0%, 100%);
                 font-size: 1rem;
                 font-weight: 600;
@@ -15,6 +17,7 @@ form{
         }
        
         textarea{
+
             width: 26rem;
             height: 8rem;
         }
@@ -26,6 +29,7 @@ form{
         width: max-content;
 
         button{
+
             width: 8rem;
             height: 2.5rem;
             border-radius: 10px;
@@ -35,9 +39,9 @@ form{
             font-weight: 900;
 
             &:hover{
+
                 cursor: pointer;
                 box-shadow: 5px 5px 15px 5px hsla(0, 100%, 50%, 0.835);
-               
                 color: hsl(0, 0%, 100%);
             }
         }

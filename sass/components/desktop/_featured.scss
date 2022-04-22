@@ -1,10 +1,13 @@
 .featured{
+
     margin: 0 5%;
 
     .featured-title{
+
         padding: 2rem;
 
         h1{
+
             align-items: center;
             display: flex;
             justify-content: center;
@@ -18,6 +21,7 @@
     }
 
     .featured-element{
+
         border: solid 3px hsl(0, 0%, 100%);
         border-radius: 10px;
         background-color: hsla(0, 1%, 74%, 0.76);
@@ -26,6 +30,7 @@
         
     
         .featured-element-title{
+
             min-height: 4vh;
             max-height: 10vh;
             white-space: nowrap;
@@ -34,26 +39,31 @@
             padding: 0 0.3rem;
 
             span{
+
                 font-size: 1.5rem;
                 font-weight: 900;
             }
 
             span:hover{
+
                 text-decoration: underline;
                 cursor: pointer;
             }
         }
 
         .featured-element-image:hover{
+
             cursor: pointer;
         }
 
         .featured-element-day svg{
+
             width: 1.3rem;
             height: 1.3rem;   
         }
 
         .featured-element-address{
+
             min-height: 5vh;
             max-height: 10vh;
             white-space: nowrap;
@@ -61,18 +71,21 @@
             overflow: hidden;
 
             svg{
+
                 width: 1.3rem;
                 height: 1.3rem;
             }
         }
 
         .featured-element-buy{
+
             padding: 0.5rem;
             align-items: center;
             display: flex;
             justify-content: center;
 
             button{
+
                 width: 10rem;
                 height: 2rem;
                 border-radius: 10px;
@@ -85,6 +98,7 @@
             }
 
             button:hover{
+
                 color: hsl(0, 0%, 0%);
                 background-color: hsl(0, 0%, 100%);
                 border: solid 2px;
@@ -93,6 +107,7 @@
     }
 
     .featured-element:hover{
+        
         box-shadow: 5px 5px 15px 5px hsl(0, 0%, 0%);
     }
 }

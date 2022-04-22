@@ -609,7 +609,7 @@ header {
 }
 .banner .banner-button button:hover {
   background-color: hsla(0deg, 0%, 38%, 0.938);
-  box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
+  box-shadow: 5px 5px 15px 5px hsla(123deg, 100%, 50%, 0.835);
 }
 
 .featured {

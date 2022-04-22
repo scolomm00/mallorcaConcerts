@@ -95,19 +95,19 @@
                 background-color: hsla(0, 0%, 0%, 0.966);
                 cursor: pointer;
                 color: hsl(0, 0%, 100%);
-            }
 
-            button:hover{
+                &:hover{
 
-                color: hsl(0, 0%, 0%);
-                background-color: hsl(0, 0%, 100%);
-                border: solid 2px;
+                    color: hsl(0, 0%, 0%);
+                    background-color: hsl(0, 0%, 100%);
+                    border: solid 2px;
+                }
             }
         }
-    }
 
-    .featured-element:hover{
+        &:hover{
         
-        box-shadow: 5px 5px 15px 5px hsl(0, 0%, 0%);
+            box-shadow: 5px 5px 15px 5px hsl(0, 0%, 0%);
+        }
     }
 }

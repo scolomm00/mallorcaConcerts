@@ -45,12 +45,11 @@ header{
         justify-content: center;
         display: flex;
         color: hsl(0, 0%, 100%);
-            
-    }
 
-    li:hover{
+        &:hover{
 
-        color: hsla(0, 100%, 50%, 0.588);
+            color: hsla(0, 100%, 50%, 0.588);
+        }   
     }
 
     svg{

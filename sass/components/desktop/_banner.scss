@@ -37,12 +37,12 @@
             font-family: "Roboto Condensed";
             background-color: hsla(0, 0%, 38%, 0.815);
             cursor: pointer;
-        }
 
-        button:hover{
+            &:hover{
             
-            background-color: hsla(0, 0%, 38%, 0.938);
-            box-shadow: 5px 5px 15px 5px hsla(0, 100%, 50%, 0.835);
-        }
+                background-color: hsla(0, 0%, 38%, 0.938);
+                box-shadow: 5px 5px 15px 5px hsla(123, 100%, 50%, 0.835);
+            }
+        }  
     }
 }

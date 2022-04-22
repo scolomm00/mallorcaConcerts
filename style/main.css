@@ -443,27 +443,13 @@ header {
   padding-bottom: 0.7rem;
   padding-top: 0.5rem;
 }
-
-.header-logo {
+.header .header-logo {
   display: flex;
 }
 
-.header-logo-image {
-  margin-right: 1rem;
-  width: 4rem;
+.header-menu {
+  margin-top: 2%;
 }
-
-.header-logo-name {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.header-logo-name h1 {
-  color: hsl(0deg, 0%, 100%);
-  font-family: "Roboto Condensed";
-}
-
 .header-menu ul {
   display: flex;
   justify-content: space-between;
@@ -486,6 +472,38 @@ header {
 .header-menu svg {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.footer {
+  padding-top: 5%;
+  border-top: 1px solid white;
+}
+.footer .footer-text .footer-text-span {
+  text-align: center;
+  margin: 1rem;
+}
+.footer .footer-text .footer-text-span span {
+  color: white;
+}
+.footer .footer-text .footer-text-span span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.footer .footer-logo .footer-logo-social {
+  display: flex;
+}
+.footer .footer-logo .footer-logo-social .footer-logo-social-media {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+}
+.footer .footer-logo .footer-logo-social .footer-logo-social-media svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: white;
+}
+.footer .footer-logo .footer-logo-social .footer-logo-social-media svg:hover {
+  cursor: pointer;
 }
 
 .desktop-five-columns {
@@ -978,11 +996,13 @@ form .form-send-button button:hover {
   margin-bottom: 4rem;
 }
 .cart .cart-table table th {
+  font-size: 1.2rem;
   padding: 1rem;
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
   color: white;
 }
 .cart .cart-table table td {
+  font-weight: 300;
   padding: 1rem;
   text-align: center;
   color: white;
@@ -1077,8 +1097,67 @@ form .form-send-button button:hover {
   box-shadow: 5px 5px 15px 5px hsla(110deg, 100%, 50%, 0.835);
   color: hsl(0deg, 0%, 100%);
 }
-.cart .cart-resume table tr:last-child {
-  border-top: 2px solid white;
+
+.checkout {
+  margin: 5%;
+}
+.checkout .checkout-title {
+  margin: 5%;
+}
+.checkout .checkout-title h1 {
+  text-align: center;
+}
+.checkout .checkout-form .checkout-form-data {
+  height: 100%;
+  border-right: 1px solid white;
+}
+.checkout .checkout-form .checkout-form-data .form-element .form-element-input select {
+  width: 78%;
+}
+.checkout .checkout-form .checkout-form-data .form-element .form-element-input-address input {
+  width: 88%;
+}
+.checkout .checkout-form .checkout-form-payment {
+  margin: 5%;
+}
+.checkout .checkout-form .checkout-form-payment .cart-resume {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.checkout .checkout-form .checkout-form-payment .cart-resume table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 2px solid white;
+  height: 10rem;
+}
+.checkout .checkout-form .checkout-form-payment .cart-resume table th {
+  border: 2px solid white;
+  background-color: white;
+}
+.checkout .checkout-form .checkout-form-payment .cart-resume table td {
+  text-align: center;
+  color: white;
+}
+.checkout .checkout-form .checkout-form-payment-radio .checkout-form-payment-radio-item {
+  color: white;
+  margin-top: 3%;
+}
+.checkout .checkout-form .checkout-form-payment-button {
+  margin-top: 10%;
+}
+.checkout .checkout-form .checkout-form-payment-button button {
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.checkout .checkout-form .checkout-form-payment-button button:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 5px hsla(110deg, 100%, 50%, 0.835);
+  color: hsl(0deg, 0%, 100%);
 }
 
 /*# sourceMappingURL=main.css.map */

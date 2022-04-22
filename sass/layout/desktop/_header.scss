@@ -2,45 +2,40 @@ $space-header: 1rem 5%;
 $width-header: 90%;
 
 header{
+
     padding: $space-header;
     width: $width-header;
-}
-
-.header{
-    background-color: hsl(0, 0%, 0%);
-    padding-bottom: 0.7rem;
-    padding-top: 0.5rem;
-}
-
-.header-logo{
-    display: flex;
-}
-
-.header-logo-image{
-    margin-right: 1rem;
-    width: 4rem;
-}
-
-.header-logo-name{
-    align-items: center;
-    display: flex;
-    justify-content: center;
     
 }
 
-.header-logo-name h1{
-    color: hsl(0, 0%, 100%);
-    font-family: "Roboto Condensed";
+.header{
+
+    background-color: hsl(0, 0%, 0%);
+    padding-bottom: 0.7rem;
+    padding-top: 0.5rem;
+
+    .header-logo{
+
+        display: flex;
+
+    }
+
+
 }
 
 .header-menu {
+
+    margin-top: 2%;
+
     ul{
+
         display: flex;
         justify-content: space-between;
         font-size: 1rem;
     }
 
     li{
+
         display: inline;
         cursor: pointer;
         font-family: "Roboto Condensed";
@@ -54,10 +49,12 @@ header{
     }
 
     li:hover{
+
         color: hsla(0, 100%, 50%, 0.588);
     }
 
     svg{
+
         width: 1.5rem;
         height: 1.5rem;
     }

@@ -21,14 +21,14 @@
             margin-bottom: 4rem;
 
             th{
-
+                font-size: 1.2rem;
                 padding: 1rem;
-                border-bottom: 2px solid white;
+                border-bottom: 3px solid white;
                 color: white;
             }
 
             td{
-
+                font-weight: 300;
                 padding: 1rem;
                 text-align: center;
                 color: white;
@@ -177,9 +177,5 @@
         }
     }
 
-    .cart-resume table tr:last-child{
-        
-        border-top: 2px solid white;
-    }
 }
 

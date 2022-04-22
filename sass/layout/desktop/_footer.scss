@@ -1,4 +1,57 @@
-footer{
+.footer{
+
+    padding-top: 5%;
+    border-top: 1px solid white;
     
+    .footer-text{
+
+        .footer-text-span{
+
+            text-align: center;
+            margin: 1rem;
+
+            span{
+
+                color: white;
+
+                &:hover{
+
+                    cursor: pointer;
+                    text-decoration: underline;
+                }
+            }
+        }
+
+    }
+
+    .footer-logo{
+
+        .footer-logo-image{
+
+        }
+
+        .footer-logo-social{
+
+            display: flex;
+
+            .footer-logo-social-media{
+
+                width: 100%;
+                text-align: center;
+                margin-top: 5%;
+
+                svg{
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    color: white;
+
+                    &:hover{
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+    }
 }
 

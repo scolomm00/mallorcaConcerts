@@ -476,14 +476,14 @@ header {
 
 .footer {
   padding-top: 5%;
-  border-top: 1px solid white;
+  border-top: 1px solid hsl(0deg, 0%, 100%);
 }
 .footer .footer-text .footer-text-span {
   text-align: center;
   margin: 1rem;
 }
 .footer .footer-text .footer-text-span span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .footer .footer-text .footer-text-span span:hover {
   cursor: pointer;
@@ -500,7 +500,7 @@ header {
 .footer .footer-logo .footer-logo-social .footer-logo-social-media svg {
   width: 1.5rem;
   height: 1.5rem;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .footer .footer-logo .footer-logo-social .footer-logo-social-media svg:hover {
   cursor: pointer;
@@ -629,14 +629,17 @@ header {
   font-weight: 900;
   content: "»";
 }
-.featured .featured-element {
+.featured .featured-block {
+  padding: 1rem 0;
+}
+.featured .featured-block .featured-element {
   border: solid 3px hsl(0deg, 0%, 100%);
   border-radius: 10px;
   background-color: hsla(0deg, 1%, 74%, 0.76);
   padding: 0.1rem;
   box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
 }
-.featured .featured-element .featured-element-title {
+.featured .featured-block .featured-element .featured-element-title {
   min-height: 4vh;
   max-height: 10vh;
   white-space: nowrap;
@@ -644,39 +647,39 @@ header {
   overflow: hidden;
   padding: 0 0.3rem;
 }
-.featured .featured-element .featured-element-title span {
+.featured .featured-block .featured-element .featured-element-title span {
   font-size: 1.5rem;
   font-weight: 900;
 }
-.featured .featured-element .featured-element-title span:hover {
+.featured .featured-block .featured-element .featured-element-title span:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.featured .featured-element .featured-element-image:hover {
+.featured .featured-block .featured-element .featured-element-image:hover {
   cursor: pointer;
 }
-.featured .featured-element .featured-element-day svg {
+.featured .featured-block .featured-element .featured-element-day svg {
   width: 1.3rem;
   height: 1.3rem;
 }
-.featured .featured-element .featured-element-address {
+.featured .featured-block .featured-element .featured-element-address {
   min-height: 5vh;
   max-height: 10vh;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-.featured .featured-element .featured-element-address svg {
+.featured .featured-block .featured-element .featured-element-address svg {
   width: 1.3rem;
   height: 1.3rem;
 }
-.featured .featured-element .featured-element-buy {
+.featured .featured-block .featured-element .featured-element-buy {
   padding: 0.5rem;
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.featured .featured-element .featured-element-buy button {
+.featured .featured-block .featured-element .featured-element-buy button {
   width: 10rem;
   height: 2rem;
   border-radius: 10px;
@@ -687,13 +690,12 @@ header {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
 }
-.featured .featured-element .featured-element-buy button:hover {
-  color: hsl(0deg, 0%, 0%);
-  background-color: hsl(0deg, 0%, 100%);
-  border: solid 2px;
+.featured .featured-block .featured-element .featured-element-buy button:hover {
+  box-shadow: 5px 5px 15px 5px hsl(120deg, 100%, 25%);
+  border: solid 2px hsl(0deg, 0%, 0%);
 }
-.featured .featured-element:hover {
-  box-shadow: 5px 5px 15px 5px hsl(0deg, 0%, 0%);
+.featured .featured-block .featured-element:hover {
+  box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
 }
 
 .find-us {
@@ -739,7 +741,7 @@ header {
   margin-bottom: 2rem;
 }
 .categories-menu .categories-menu-elements ul li {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
   cursor: pointer;
   font-size: 1.2rem;
   font-weight: 600;
@@ -756,7 +758,7 @@ header {
   padding-left: 5%;
 }
 .products .products-menu .products-menu-counter-items span {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
   font-size: 1.2rem;
 }
 .products .products-menu .products-menu-filter {
@@ -998,17 +1000,17 @@ form .form-send-button button:hover {
 .cart .cart-table table th {
   font-size: 1.2rem;
   padding: 1rem;
-  border-bottom: 3px solid white;
-  color: white;
+  border-bottom: 3px solid hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 100%);
 }
 .cart .cart-table table td {
   font-weight: 300;
   padding: 1rem;
   text-align: center;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .cart .cart-table table td img {
-  border: 1px solid white;
+  border: 1px solid hsl(0deg, 0%, 100%);
   width: 5rem;
   height: 5rem;
 }
@@ -1054,16 +1056,16 @@ form .form-send-button button:hover {
 .cart .cart-resume table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 2px solid white;
+  border: 2px solid hsl(0deg, 0%, 100%);
   height: 10rem;
 }
 .cart .cart-resume table th {
-  border: 2px solid white;
-  background-color: white;
+  border: 2px solid hsl(0deg, 0%, 100%);
+  background-color: hsl(0deg, 0%, 100%);
 }
 .cart .cart-resume table td {
   text-align: center;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .cart .cart-resume .cart-resume-button {
   display: flex;
@@ -1109,7 +1111,7 @@ form .form-send-button button:hover {
 }
 .checkout .checkout-form .checkout-form-data {
   height: 100%;
-  border-right: 1px solid white;
+  border-right: 1px solid hsl(0deg, 0%, 100%);
 }
 .checkout .checkout-form .checkout-form-data .form-element .form-element-input select {
   width: 78%;
@@ -1127,19 +1129,19 @@ form .form-send-button button:hover {
 .checkout .checkout-form .checkout-form-payment .cart-resume table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 2px solid white;
+  border: 2px solid hsl(0deg, 0%, 100%);
   height: 10rem;
 }
 .checkout .checkout-form .checkout-form-payment .cart-resume table th {
-  border: 2px solid white;
-  background-color: white;
+  border: 2px solid hsl(0deg, 0%, 100%);
+  background-color: hsl(0deg, 0%, 100%);
 }
 .checkout .checkout-form .checkout-form-payment .cart-resume table td {
   text-align: center;
-  color: white;
+  color: hsl(0deg, 0%, 100%);
 }
 .checkout .checkout-form .checkout-form-payment-radio .checkout-form-payment-radio-item {
-  color: white;
+  color: hsl(0deg, 0%, 100%);
   margin-top: 3%;
 }
 .checkout .checkout-form .checkout-form-payment-button {

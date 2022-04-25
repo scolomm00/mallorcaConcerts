@@ -12,3 +12,11 @@ main{
     margin: $space-margin;
     width: $width;
 }
+
+.desktop-only{
+    display: revert;
+}
+
+.mobile-only{
+    display: none;
+}

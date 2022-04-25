@@ -38,6 +38,24 @@
     }
 }
 
+.mobile-two-columns-aside{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    & > .column-aside{
+
+        width: 20%;
+    }
+
+    & > .column-main{
+
+        width: 75%;
+    }
+}
+
+
 .mobile-one-column{
     width: 100%;
     display: block;

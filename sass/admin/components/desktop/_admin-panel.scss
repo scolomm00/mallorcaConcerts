@@ -131,11 +131,18 @@ header{
 
         .form-element{
 
-            padding-right: 5%;
+            margin-bottom: 1rem;
 
             .form-element-label{
 
+                margin-bottom: 0.5rem;
 
+                label{
+    
+                    color: hsl(0, 0%, 100%);
+                    font-size: 1rem;
+                    font-weight: 600;
+                }
             }
 
             .form-element-input{

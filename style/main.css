@@ -683,7 +683,15 @@ header .header-admin-menu svg:hover {
   margin-top: 2%;
 }
 .admin-panel .admin-panel-form .form-element {
-  padding-right: 5%;
+  margin-bottom: 1rem;
+}
+.admin-panel .admin-panel-form .form-element .form-element-label {
+  margin-bottom: 0.5rem;
+}
+.admin-panel .admin-panel-form .form-element .form-element-label label {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 600;
 }
 .admin-panel .admin-panel-form .form-element .form-element-input input {
   font-size: 100%;

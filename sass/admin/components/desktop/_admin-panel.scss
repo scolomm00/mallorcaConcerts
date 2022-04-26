@@ -81,40 +81,32 @@ header{
 
                     padding-right: 0.5rem;
         
-                    button{
-    
-                        width: 2rem;
-                        height: 2rem;
-                        border-radius: 10px;
-                        background-color: hsla(0, 0%, 0%, 0.548);
+                    svg{
+
                         color: hsl(0, 0%, 100%);
-                        border: 2px solid hsl(0, 0%, 100%);
-                        font-weight: 900;
+                        width: 1.5rem;
+                        height: 1.5rem;
             
                         &:hover{
             
+                            color: grey;
                             cursor: pointer;
-                            color: hsl(0, 0%, 100%);
                         }
                     }
                 }
 
                 .table-button-delete{
         
-                    button{
-    
-                        width: 2rem;
-                        height: 2rem;
-                        border-radius: 10px;
-                        background-color: hsla(0, 0%, 0%, 0.548);
+                    svg{
+
                         color: hsl(0, 0%, 100%);
-                        border: 2px solid hsl(0, 0%, 100%);
-                        font-weight: 900;
+                        width: 1.5rem;
+                        height: 1.5rem;
             
                         &:hover{
             
+                            color: red;
                             cursor: pointer;
-                            color: hsl(0, 0%, 100%);
                         }
                     }
                 }
@@ -168,11 +160,19 @@ header{
             .form-button-create{
                 
                 padding-right: 2rem;
+                width: 100%;
 
                 button{
+                    
+                    display: flex;
+                    padding: 0.5rem;
 
-                    width: 3rem;
-                    height: 3rem;
+                    svg{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        padding-right: 0.5rem;
+                    }
+                    
                     border-radius: 10px;
                     background-color: hsla(0, 0%, 0%, 0.548);
                     color: hsl(0, 0%, 100%);
@@ -191,8 +191,15 @@ header{
         
                 button{
                     
-                    width: 3rem;
-                    height: 3rem;
+                    display: flex;
+                    padding: 0.5rem;
+
+                    svg{
+                        width: 1.5rem;
+                        height: 1.5rem;
+                        padding-right: 0.5rem;
+                    }
+                    
                     border-radius: 10px;
                     background-color: hsla(0, 0%, 0%, 0.548);
                     color: hsl(0, 0%, 100%);

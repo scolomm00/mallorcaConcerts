@@ -651,31 +651,23 @@ header .header-admin-menu svg:hover {
 .admin-panel .admin-panel-table table td .table-button-read {
   padding-right: 0.5rem;
 }
-.admin-panel .admin-panel-table table td .table-button-read button {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: hsla(0deg, 0%, 0%, 0.548);
+.admin-panel .admin-panel-table table td .table-button-read svg {
   color: hsl(0deg, 0%, 100%);
-  border: 2px solid hsl(0deg, 0%, 100%);
-  font-weight: 900;
+  width: 1.5rem;
+  height: 1.5rem;
 }
-.admin-panel .admin-panel-table table td .table-button-read button:hover {
+.admin-panel .admin-panel-table table td .table-button-read svg:hover {
+  color: grey;
   cursor: pointer;
-  color: hsl(0deg, 0%, 100%);
 }
-.admin-panel .admin-panel-table table td .table-button-delete button {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: hsla(0deg, 0%, 0%, 0.548);
+.admin-panel .admin-panel-table table td .table-button-delete svg {
   color: hsl(0deg, 0%, 100%);
-  border: 2px solid hsl(0deg, 0%, 100%);
-  font-weight: 900;
+  width: 1.5rem;
+  height: 1.5rem;
 }
-.admin-panel .admin-panel-table table td .table-button-delete button:hover {
+.admin-panel .admin-panel-table table td .table-button-delete svg:hover {
+  color: red;
   cursor: pointer;
-  color: hsl(0deg, 0%, 100%);
 }
 .admin-panel .admin-panel-form {
   border-left: 1px solid hsl(0deg, 0%, 100%);
@@ -706,28 +698,39 @@ header .header-admin-menu svg:hover {
 }
 .admin-panel .admin-panel-form .form-button .form-button-create {
   padding-right: 2rem;
+  width: 100%;
 }
 .admin-panel .admin-panel-form .form-button .form-button-create button {
-  width: 3rem;
-  height: 3rem;
+  display: flex;
+  padding: 0.5rem;
   border-radius: 10px;
   background-color: hsla(0deg, 0%, 0%, 0.548);
   color: hsl(0deg, 0%, 100%);
   border: 2px solid hsl(0deg, 0%, 100%);
   font-weight: 900;
+}
+.admin-panel .admin-panel-form .form-button .form-button-create button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 0.5rem;
 }
 .admin-panel .admin-panel-form .form-button .form-button-create button:hover {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
 }
 .admin-panel .admin-panel-form .form-button .form-button-update button {
-  width: 3rem;
-  height: 3rem;
+  display: flex;
+  padding: 0.5rem;
   border-radius: 10px;
   background-color: hsla(0deg, 0%, 0%, 0.548);
   color: hsl(0deg, 0%, 100%);
   border: 2px solid hsl(0deg, 0%, 100%);
   font-weight: 900;
+}
+.admin-panel .admin-panel-form .form-button .form-button-update button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 0.5rem;
 }
 .admin-panel .admin-panel-form .form-button .form-button-update button:hover {
   cursor: pointer;

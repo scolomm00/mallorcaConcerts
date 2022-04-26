@@ -81,6 +81,23 @@
     }
 }
 
+.desktop-two-columns-60-35{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    & > .column-35{
+
+        width: 35%;
+    }
+
+    & > .column-60{
+
+        width: 60%;
+    }
+}
+
 .desktop-one-column{
 
     width: 100%;

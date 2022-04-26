@@ -600,6 +600,11 @@ header {
 header .header-admin-logo h1 {
   color: hsl(0deg, 0%, 100%);
 }
+header .header-admin-logo h1 svg {
+  padding-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
 header .header-admin-menu {
   margin-left: auto;
   width: max-content;

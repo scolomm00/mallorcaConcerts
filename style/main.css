@@ -593,47 +593,6 @@ header {
   width: 100%;
 }
 
-header {
-  padding-top: 2%;
-  background-color: rgb(0, 0, 0);
-}
-header .header-admin-logo h1 {
-  color: hsl(0deg, 0%, 100%);
-}
-header .header-admin-logo h1 svg {
-  padding-right: 1rem;
-  width: 5rem;
-  height: 5rem;
-}
-header .header-admin-menu {
-  margin-left: auto;
-  width: max-content;
-}
-header .header-admin-menu svg {
-  width: 4rem;
-  height: 4rem;
-  color: white;
-}
-header .header-admin-menu svg:hover {
-  cursor: pointer;
-}
-
-.filters {
-  width: 100%;
-  background-color: hsl(0deg, 0%, 100%);
-  justify-content: center;
-  text-align: center;
-}
-.filters svg {
-  margin: 0.5rem;
-  width: 2rem;
-  height: 2rem;
-  color: hsl(0deg, 0%, 0%);
-}
-.filters:hover {
-  cursor: pointer;
-}
-
 .admin-panel {
   margin: 5% 3%;
 }
@@ -681,6 +640,7 @@ header .header-admin-menu svg:hover {
 }
 .admin-panel .admin-panel-form .form-element {
   margin-bottom: 1rem;
+  padding-top: 1rem;
 }
 .admin-panel .admin-panel-form .form-element .form-element-label {
   margin-bottom: 0.5rem;
@@ -740,6 +700,144 @@ header .header-admin-menu svg:hover {
 .admin-panel .admin-panel-form .form-button .form-button-update button:hover {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
+}
+
+.filters {
+  width: 100%;
+  background-color: hsl(0deg, 0%, 100%);
+  justify-content: center;
+  text-align: center;
+}
+.filters svg {
+  margin: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  color: hsl(0deg, 0%, 0%);
+}
+.filters:hover {
+  cursor: pointer;
+}
+
+header {
+  padding-top: 2%;
+  background-color: rgb(0, 0, 0);
+}
+header .header-admin-logo h1 {
+  color: hsl(0deg, 0%, 100%);
+}
+header .header-admin-logo h1 svg {
+  padding-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+header .header-admin-menu {
+  margin-left: auto;
+  width: max-content;
+}
+header .header-admin-menu svg {
+  width: 4rem;
+  height: 4rem;
+  color: white;
+}
+header .header-admin-menu svg:hover {
+  cursor: pointer;
+}
+
+.Panel {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+.Panel__body {
+  background-color: #000000;
+  padding: 10px 20px;
+}
+
+.Tabs {
+  position: relative;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /**
+   * UPDATE: better to animate "transform" property than "left"
+   * property. You can see old code lower down for reference.
+   */
+  /**
+   * OLD CODE (for reference)
+   * It's a bit easier to understand with "left",
+   * but the animation is not as smooth
+   */
+}
+.Tabs:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.Tabs__tab {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.Tabs__tab:first-child.active ~ .Tabs__presentation-slider {
+  transform: translateX(0) scaleX(0.333);
+}
+.Tabs__tab:nth-child(2).active ~ .Tabs__presentation-slider {
+  transform: translateX(33.333%) scaleX(0.333);
+}
+.Tabs__tab:nth-child(3).active ~ .Tabs__presentation-slider {
+  transform: translateX(66.666%) scaleX(0.333);
+}
+.Tabs__presentation-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #4A66F4;
+  transform-origin: 0 0;
+  transition: transform 0.25s;
+}
+.Tabs__tab {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.Tabs__tab:first-child.active ~ .Tabs__presentation-slider {
+  left: 0;
+}
+.Tabs__tab:nth-child(2).active ~ .Tabs__presentation-slider {
+  left: 33.333%;
+}
+.Tabs__tab:nth-child(3).active ~ .Tabs__presentation-slider {
+  left: 66.666%;
+}
+.Tabs__presentation-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 33.333%;
+  height: 2px;
+  background-color: #4A66F4;
+  transform-origin: 0 0;
+  transition: left 0.25s;
+}
+
+.Tab {
+  font-family: "Roboto Slab";
+}
+.Tab > a {
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: #666;
+  transition: color 0.15s;
+}
+.Tab.active > a {
+  color: #222;
+}
+.Tab:hover > a {
+  color: #222;
 }
 
 /*# sourceMappingURL=main.css.map */

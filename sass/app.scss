@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+//front
+@import "front/helpers/variables";
+@import "front/helpers/mixins";
+@import "front/base/normalize";
+@import "front/base/contents";
+@import "front/base/typography";
+@import "front/layout/desktop/master";
+@import "front/layout/desktop/header";
+@import "front/layout/desktop/footer";
+@import "front/layout/desktop/columns";
+@import "front/components/desktop/banner";
+@import "front/components/desktop/featured";
+@import "front/components/desktop/find-us";
+@import "front/components/desktop/categories-menu";
+@import "front/components/desktop/products";
+@import "front/components/desktop/product";
+@import "front/components/desktop/contact";
+@import "front/components/desktop/form";
+@import "front/components/desktop/cart";
+@import "front/components/desktop/checkout";
+@import "front/components/desktop/admin-panel";
+@import "front/pages/home/desktop/home";
+
+//admin
+@import "admin/helpers/variables";
+@import "admin/helpers/mixins";
+@import "admin/base/normalize";
+@import "admin/base/contents";
+@import "admin/base/typography";
+@import "admin/layout/desktop/master";
+@import "admin/layout/desktop/header";
+@import "admin/layout/desktop/footer";
+@import "admin/layout/desktop/columns";
+@import "admin/components/desktop/admin-panel";
+@import "admin/components/desktop/filters";
+@import "admin/components/desktop/header";
+@import "admin/components/desktop/tab";
+
+
+

@@ -1925,7 +1925,7 @@ header {
 }
 .admin-panel .admin-panel-table table td {
   font-weight: 300;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
   color: hsl(0deg, 0%, 100%);
 }
@@ -1956,8 +1956,8 @@ header {
   margin-top: 2%;
 }
 .admin-panel .admin-panel-form .form-element {
-  margin-bottom: 1rem;
   padding-top: 1rem;
+  width: 100%;
 }
 .admin-panel .admin-panel-form .form-element .form-element-label {
   margin-bottom: 0.5rem;
@@ -1970,21 +1970,20 @@ header {
 .admin-panel .admin-panel-form .form-element .form-element-input input {
   font-size: 100%;
   height: 2rem;
-  width: 100%;
 }
 .admin-panel .admin-panel-form .form-button {
-  margin-top: 3%;
-  display: flex;
-  margin-left: auto;
-  width: max-content;
+  margin-top: 5%;
+  padding-right: 0.5rem;
+  width: 85%;
 }
 .admin-panel .admin-panel-form .form-button .form-button-create {
   padding-right: 2rem;
-  width: 100%;
+  width: 50%;
 }
 .admin-panel .admin-panel-form .form-button .form-button-create button {
   display: flex;
   padding: 0.5rem;
+  width: 11.5rem;
   border-radius: 10px;
   background-color: hsla(0deg, 0%, 0%, 0.548);
   color: hsl(0deg, 0%, 100%);
@@ -2003,6 +2002,7 @@ header {
 .admin-panel .admin-panel-form .form-button .form-button-update button {
   display: flex;
   padding: 0.5rem;
+  width: 8rem;
   border-radius: 10px;
   background-color: hsla(0deg, 0%, 0%, 0.548);
   color: hsl(0deg, 0%, 100%);
@@ -2017,6 +2017,92 @@ header {
 .admin-panel .admin-panel-form .form-button .form-button-update button:hover {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
+}
+
+.footer-admin {
+  margin-top: 10%;
+  border-top: 3px solid white;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.footer-admin img {
+  margin-top: 1.5%;
+}
+
+/*---------------------*/
+.hamburger {
+  margin-top: 10%;
+}
+.hamburger .line {
+  background: rgb(255, 255, 255);
+  height: 0.5rem;
+  width: 4rem;
+  margin-bottom: 0.7rem;
+  transition: all 1s;
+}
+.hamburger.active .line1 {
+  transform: rotate(0.125turn) translate(0, 25px);
+}
+.hamburger.active .line2 {
+  opacity: 0;
+}
+.hamburger.active .line3 {
+  transform: rotate(-0.125turn) translate(0, -26px);
+}
+
+.header-admin-menu {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  z-index: 5001;
+}
+.header-admin-menu svg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+.header-admin-menu svg:hover {
+  color: hsla(0deg, 100%, 50%, 0.588);
+}
+
+.admin-menu {
+  background-color: hsl(0deg, 0%, 0%);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: -100vh;
+  transition: top 0.5s;
+  width: 100%;
+  z-index: 5000;
+}
+.admin-menu.up {
+  top: 0;
+  overflow: hidden;
+}
+.admin-menu.up ul {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30% 30%;
+}
+.admin-menu.up li {
+  margin-bottom: 20%;
+  z-index: 5000;
+  cursor: pointer;
+  font-family: "Roboto Condensed";
+  font-size: 1.5rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0deg, 0%, 100%);
+}
+.admin-menu.up li:hover {
+  color: hsla(0deg, 100%, 50%, 0.588);
+}
+.admin-menu.up svg {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .filters {

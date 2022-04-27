@@ -28,15 +28,26 @@
                 </div>
             </div>
             <div class="column-aside">
+                <div cl></div>
                 <div class="header-admin-menu">
-                    <svg viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-                    </svg>
+                    <div class="hamburger" id="hamburger">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
                 </div>
+                
             </div>
         </div>
     </header>
     <main>
+            <div class="admin-menu" id="adminMenu">
+                <ul>
+                    <li>INICIO</li>
+                    <li>CONCIERTOS</li>
+                    <li>CONTACTO</li>
+                </ul>
+            </div>
         <div class="filters">
             <svg viewBox="0 0 24 24">
                 <path fill="currentColor"
@@ -49,16 +60,16 @@
                     <div class="admin-panel-table">
                         <table>
                             <tr>
+                                <th>ID</th>
                                 <th>Nombre</th>
                                 <th>Email</th>
                                 <th>Usuario</th>
-                                <th>Contraseña</th>
                             </tr>
                             <tr>
+                                <td>1</td>
                                 <td>Sebas</td>
                                 <td>sebastiacolom@gmail.com</td>
                                 <td>scolom</td>
-                                <td>sebas1234</td>
                                 <td>
                                     <div class="desktop-two-columns">
                                         <div class="column">
@@ -81,10 +92,10 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>2</td>
                                 <td>Sebas</td>
                                 <td>sebastiacolom@gmail.com</td>
                                 <td>scolom</td>
-                                <td>sebas1234</td>
                                 <td>
                                     <div class="desktop-two-columns">
                                         <div class="column">
@@ -107,10 +118,10 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>3</td>
                                 <td>Sebas</td>
                                 <td>sebastiacolom@gmail.com</td>
                                 <td>scolom</td>
-                                <td>sebas1234</td>
                                 <td>
                                     <div class="desktop-two-columns">
                                         <div class="column">
@@ -136,8 +147,8 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="admin-panel-form">
-                        <form action="">
+                    <form action="">
+                        <div class="admin-panel-form">
                             <div class="Panel">
                                 <nav>
                                     <ul class="Tabs">
@@ -221,13 +232,20 @@
                                     </button>
                                 </div>
                             </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-
+        </div>
     </main>
+    <footer>
+        <div class="footer-admin">
+            <img src="images/logo_footer.webp" alt="">
+        </div>
+    </footer>
+
+    <script type="module" src="js/desktop/_admin-panel.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({

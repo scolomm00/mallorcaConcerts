@@ -46,12 +46,14 @@
             box-shadow: 5px 5px 15px 5px hsla(0, 100%, 50%, 0.835);
 
             &:hover{
+
                 box-shadow: 5px 5px 15px 5px hsl(0, 0%, 0%);
             }
 
             .products-element-image{
                 
                 &:hover{
+                    
                     cursor: pointer;
                 }
             }

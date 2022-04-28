@@ -48,10 +48,15 @@
     </header>
     <main>
         <div class="filters">
-            <svg viewBox="0 0 24 24">
-                <path fill="currentColor"
-                    d="M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z" />
-            </svg>
+            <div class="filter-button" id="filter-button">
+                <svg viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M11 11L16.76 3.62A1 1 0 0 0 16.59 2.22A1 1 0 0 0 16 2H2A1 1 0 0 0 1.38 2.22A1 1 0 0 0 1.21 3.62L7 11V16.87A1 1 0 0 0 7.29 17.7L9.29 19.7A1 1 0 0 0 10.7 19.7A1 1 0 0 0 11 18.87V11M13 16L18 21L23 16Z" />
+                </svg>
+            </div>
+            <div id="filter-bar">
+                <h1>Aqui vamos a añadir filtros para facilitar la búsqueda</h1>
+            </div>
         </div>
         <div class="admin-panel">
             <div class="desktop-two-columns">
@@ -244,7 +249,8 @@
         </div>
     </footer>
 
-    <script type="module" src="js/desktop/_admin-panel.js"></script>
+    <script type="module" src="js/desktop/filter-bar.js"></script>
+    <script type="module" src="js/desktop/admin-panel.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({

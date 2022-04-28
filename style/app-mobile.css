@@ -621,7 +621,7 @@ header .header-logo {
 .banner .banner-button {
   position: absolute;
   left: 10%;
-  top: 70vh;
+  top: 60vh;
   z-index: 1;
 }
 .banner .banner-button button {

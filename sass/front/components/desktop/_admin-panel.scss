@@ -1,7 +1,7 @@
 header{
 
     padding-top: 2%;
-    background-color: rgb(0, 0, 0);
+    background-color: hsl(0, 0%, 0%);
 
     .header-admin-logo{
 
@@ -20,7 +20,7 @@ header{
 
             width: 4rem;
             height: 4rem;
-            color: white;
+            color: hsl(0, 0%, 100%);
             
             &:hover{
 

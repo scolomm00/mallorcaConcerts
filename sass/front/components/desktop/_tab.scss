@@ -1,6 +1,6 @@
-.box-tabs-content{
+.box-tabs-content {
 
-    .tabs{
+    .tabs {
 
         background-color: hsl(0, 0%, 100%);
         display: flex;
@@ -8,7 +8,7 @@
         justify-content: space-between;
         margin-bottom: 3%;
 
-        .tab{   
+        .tab {
 
             border: 1px solid hsl(0, 0%, 0%);
             width: 100%;
@@ -17,13 +17,13 @@
             font-family: Arial, Helvetica, sans-serif;
             font-weight: 600;
 
-            &:hover{
+            &:hover {
 
                 background-color: hsl(0, 2%, 76%);
                 cursor: pointer;
             }
 
-            &.active{
+            &.active {
 
                 background-color: hsl(0, 0%, 0%);
                 color: hsl(0, 0%, 100%);
@@ -33,5 +33,25 @@
                 transition: 0.5s;
             }
         }
+
+
+    }
+
+    .tabs-content {
+
+        width: 30rem;
+        height: 15rem;
+
+        .tab-content {
+
+            display: none;
+
+            &.active {
+
+                display: block;
+            }
+        }
+
+
     }
 }

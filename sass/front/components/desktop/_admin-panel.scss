@@ -130,7 +130,8 @@ header{
     }
 
     .admin-panel-form{
-
+        
+        padding-bottom: 2rem;
         border-left: 1px solid hsl(0, 0%, 100%);
         padding-left: 5%;
         margin-top: 2%;
@@ -159,7 +160,7 @@ header{
 
         .form-button{
 
-            margin-top: 3%;
+            padding-top: 4rem;
             display: flex;
             margin-left: auto;
             width: max-content;

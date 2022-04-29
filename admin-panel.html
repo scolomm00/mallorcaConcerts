@@ -155,16 +155,13 @@
                 <div class="column">
                     <form action="">
                         <div class="admin-panel-form">
-                            <div class="Panel">
-                                <nav>
-                                    <ul class="Tabs">
-                                        <li class="Tabs__tab active Tab"><a href="#">Datos personales</a></li>
-                                        <li class="Tabs__tab Tab"><a href="#">Dirección</a></li>
-                                        <li class="Tabs__tab Tab"><a href="#">Método de pago</a></li>
-                                        <li class="Tabs__presentation-slider" role="presentation"></li>
-                                    </ul>
-                                </nav>
-                                <div class="Panel__body">
+                            <div class="box-tabs-content">
+                                <div class="tabs">
+                                    <div class="tab 1 active" data-tab="tab-1">Formulario</div>
+                                    <div class="tab 2" data-tab="tab-2">Características</div>
+                                    <div class="tab 3" data-tab="tab-3">Opiniones</div>
+                                </div>
+                                <div class="tabs-content">
                                     <div class="form-element">
                                         <div class="form-element-label">
                                             <label>Nombre</label>
@@ -219,7 +216,6 @@
                                     </div>
                                 </div>
                             </div>
-
                             <div class="form-button">
                                 <div class="form-button-create">
                                     <button>
@@ -251,6 +247,7 @@
         </div>
     </footer>
 
+    <script type="module" src="js/desktop/tab.js"></script>
     <script type="module" src="js/desktop/filter-bar.js"></script>
     <script type="module" src="js/desktop/admin-panel.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

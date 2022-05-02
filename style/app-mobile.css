@@ -776,6 +776,9 @@ header .header-logo {
   margin-bottom: 0.5rem;
   transition: all 1s;
 }
+.hamburger:hover {
+  cursor: pointer;
+}
 .hamburger.active .line1 {
   transform: rotate(0.125turn) translate(0, 15px);
 }

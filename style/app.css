@@ -896,10 +896,10 @@ header {
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
 }
-.product .product-text .product-text-day .product-text-day-counter {
+.product .product-text .product-text-day .plus-minus-counter {
   display: flex;
 }
-.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button {
+.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.rest button {
   border-radius: 1rem 0 0 1rem;
   background-color: hsl(0deg, 100%, 50%);
   color: hsl(0deg, 0%, 100%);
@@ -907,15 +907,15 @@ header {
   width: 2rem;
   height: 2rem;
 }
-.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-rest button:hover {
+.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.rest button:hover {
   cursor: pointer;
 }
-.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-num input {
+.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter-number input {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
 }
-.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-addition button {
+.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.sume button {
   border-radius: 0 1rem 1rem 0;
   background-color: hsl(120deg, 100%, 25%);
   color: hsl(0deg, 0%, 100%);
@@ -923,7 +923,7 @@ header {
   width: 2rem;
   height: 2rem;
 }
-.product .product-text .product-text-day .product-text-day-counter .product-text-day-counter-button-addition button:hover {
+.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.sume button:hover {
   cursor: pointer;
 }
 .product .product-text .product-text-booking {
@@ -1038,11 +1038,11 @@ form .form-button-send button:hover {
 .cart .cart-table table td img:hover {
   cursor: pointer;
 }
-.cart .product-text-day-counter {
+.cart .plus-minus-counter {
   display: flex;
   justify-content: center;
 }
-.cart .product-text-day-counter .product-text-day-counter-button-rest button {
+.cart .plus-minus-counter .plus-minus-counter.rest button {
   border-radius: 1rem 0 0 1rem;
   background-color: hsl(0deg, 100%, 50%);
   color: hsl(0deg, 0%, 100%);
@@ -1050,15 +1050,15 @@ form .form-button-send button:hover {
   width: 2rem;
   height: 2rem;
 }
-.cart .product-text-day-counter .product-text-day-counter-button-rest button:hover {
+.cart .plus-minus-counter .plus-minus-counter.rest button:hover {
   cursor: pointer;
 }
-.cart .product-text-day-counter .product-text-day-counter-num input {
+.cart .plus-minus-counter .plus-minus-counter-number input {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
 }
-.cart .product-text-day-counter .product-text-day-counter-button-addition button {
+.cart .plus-minus-counter .plus-minus-counter.sume button {
   border-radius: 0 1rem 1rem 0;
   background-color: hsl(120deg, 100%, 25%);
   color: hsl(0deg, 0%, 100%);
@@ -1066,7 +1066,7 @@ form .form-button-send button:hover {
   width: 2rem;
   height: 2rem;
 }
-.cart .product-text-day-counter .product-text-day-counter-button-addition button:hover {
+.cart .plus-minus-counter .plus-minus-counter.sume button:hover {
   cursor: pointer;
 }
 .cart .cart-resume {

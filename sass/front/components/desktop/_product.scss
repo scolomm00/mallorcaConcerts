@@ -46,11 +46,11 @@
                 }
             }
 
-            .product-text-day-counter {
+            .plus-minus-counter {
 
                 display: flex;
 
-                .product-text-day-counter-button-rest {
+                .plus-minus-counter.rest {
 
                     button {
 
@@ -67,7 +67,7 @@
                     }
                 }
 
-                .product-text-day-counter-num {
+                .plus-minus-counter-number {
 
                     input {
 
@@ -77,7 +77,7 @@
                     }
                 }
 
-                .product-text-day-counter-button-addition {
+                .plus-minus-counter.sume {
 
                     button {
 

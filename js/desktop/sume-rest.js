@@ -9,7 +9,7 @@ export let sumeRest = () => {
             tickets.value = (parseInt(tickets.value) + 1);
         });
     })
-        
+
     restas.forEach(resta => {
         resta.addEventListener("click", () => {
     

@@ -1,25 +1,28 @@
-let tabs = document.querySelectorAll('.tab');
-let tabsContent = document.querySelectorAll('.tab-content');
+export let tabBar = () => {
 
-tabs.forEach(tab => {
+    let tabs = document.querySelectorAll('.tab');
+    let tabsContent = document.querySelectorAll('.tab-content');
 
-    tab.addEventListener('click', () => {
+    tabs.forEach(tab => {
 
-        tabsContent.forEach(tabContent => {
+        tab.addEventListener('click', () => {
 
-            tabContent.classList.remove('active');
+            tabsContent.forEach(tabContent => {
 
-            if (tabContent.dataset.num == tab.dataset.num) {
-                tabContent.classList.add('active');
-            }
+                tabContent.classList.remove('active');
+
+                if (tabContent.dataset.num == tab.dataset.num) {
+                    tabContent.classList.add('active');
+                }
+            });
+
+            tabs.forEach(tab => {
+
+                tab.classList.remove('active');
+            });
+
+            tab.classList.add('active');
         });
 
-        tabs.forEach(tab => {
-
-            tab.classList.remove('active');
-        });
-
-        tab.classList.add('active');
     });
-
-});
+}

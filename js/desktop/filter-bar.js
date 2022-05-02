@@ -1,8 +1,13 @@
-let filterBar = document.getElementById("filter-bar");
-let filterButton = document.getElementById("filter-button");
+export let filterBar = () => {
 
-filterButton.addEventListener("click", () => {
+    let filterBar = document.getElementById("filter-bar");
+    let filterButton = document.getElementById("filter-button");
 
-    filterBar.classList.toggle("active");
+    if(filterBar){
+        filterButton.addEventListener("click", () => {
 
-});
+            filterBar.classList.toggle("active");
+    
+        });
+    }
+}

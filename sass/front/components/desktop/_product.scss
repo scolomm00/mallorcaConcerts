@@ -1,30 +1,30 @@
-.product{
+.product {
 
     margin: 5%;
 
-    .product-image{
+    .product-image {
 
-        .product-image-main{
+        .product-image-main {
 
             border: 2px solid hsl(0, 0%, 100%);
         }
 
-        .product-image-small{
-            
+        .product-image-small {
+
             margin: 2%;
         }
     }
 
-    .product-text{
+    .product-text {
         width: 170rem;
         margin-left: 10%;
 
 
-        .product-text-price{
+        .product-text-price {
 
             margin: 3% 0;
 
-            span{
+            span {
 
                 color: hsl(0, 0%, 100%);
                 font-size: 1.5rem;
@@ -32,27 +32,27 @@
             }
         }
 
-        .product-text-day{
+        .product-text-day {
 
             margin-top: 5%;
             width: 70%;
 
-            .product-text-day-letter{
-                
-                span{
+            .product-text-day-letter {
+
+                span {
 
                     color: hsl(0, 0%, 100%);
                     font-weight: 600;
                 }
             }
 
-            .product-text-day-counter{
+            .product-text-day-counter {
 
                 display: flex;
 
-                .product-text-day-counter-button-rest{
- 
-                    button{
+                .product-text-day-counter-button-rest {
+
+                    button {
 
                         border-radius: 1rem 0 0 1rem;
                         background-color: hsl(0, 100%, 50%);
@@ -61,15 +61,15 @@
                         width: 2rem;
                         height: 2rem;
 
-                        &:hover{
+                        &:hover {
                             cursor: pointer;
                         }
                     }
                 }
 
-                .product-text-day-counter-num{
+                .product-text-day-counter-num {
 
-                    input{
+                    input {
 
                         width: 1.5rem;
                         height: 1.5rem;
@@ -77,9 +77,9 @@
                     }
                 }
 
-                .product-text-day-counter-button-addition{
+                .product-text-day-counter-button-addition {
 
-                    button{
+                    button {
 
                         border-radius: 0 1rem 1rem 0;
                         background-color: hsl(120, 100%, 25%);
@@ -88,7 +88,7 @@
                         width: 2rem;
                         height: 2rem;
 
-                        &:hover{
+                        &:hover {
                             cursor: pointer;
                         }
                     }
@@ -96,13 +96,13 @@
             }
         }
 
-        .product-text-booking{
+        .product-text-booking {
 
             margin-top: 6%;
 
-            .product-text-booking-button{
+            .product-text-booking-button {
 
-                button{
+                button {
 
                     width: 15rem;
                     height: 2.5rem;
@@ -111,8 +111,8 @@
                     color: hsl(0, 0%, 100%);
                     border: 2px solid hsl(0, 0%, 100%);
                     font-weight: 900;
-    
-                    &:hover{
+
+                    &:hover {
 
                         cursor: pointer;
                         box-shadow: 5px 5px 15px 5px hsla(0, 100%, 50%, 0.835);

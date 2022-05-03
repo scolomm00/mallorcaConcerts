@@ -910,7 +910,7 @@ header {
 .product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.rest button:hover {
   cursor: pointer;
 }
-.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter-number input {
+.product .product-text .product-text-day .plus-minus-counter .plus-minus.counter input {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
@@ -1053,7 +1053,7 @@ form .form-button-send button:hover {
 .cart .plus-minus-counter .plus-minus-counter.rest button:hover {
   cursor: pointer;
 }
-.cart .plus-minus-counter .plus-minus-counter-number input {
+.cart .plus-minus-counter .plus-minus.counter input {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;

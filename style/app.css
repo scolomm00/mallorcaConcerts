@@ -896,10 +896,10 @@ header {
   color: hsl(0deg, 0%, 100%);
   font-weight: 600;
 }
-.product .product-text .product-text-day .plus-minus-counter {
+.product .product-text .product-text-day .box-plus-minus {
   display: flex;
 }
-.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.rest button {
+.product .product-text .product-text-day .box-plus-minus .plus-minus-counter.rest button {
   border-radius: 1rem 0 0 1rem;
   background-color: hsl(0deg, 100%, 50%);
   color: hsl(0deg, 0%, 100%);
@@ -907,15 +907,15 @@ header {
   width: 2rem;
   height: 2rem;
 }
-.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.rest button:hover {
+.product .product-text .product-text-day .box-plus-minus .plus-minus-counter.rest button:hover {
   cursor: pointer;
 }
-.product .product-text .product-text-day .plus-minus-counter .plus-minus.counter input {
+.product .product-text .product-text-day .box-plus-minus .plus-minus.counter input {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
 }
-.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.sume button {
+.product .product-text .product-text-day .box-plus-minus .plus-minus-counter.sume button {
   border-radius: 0 1rem 1rem 0;
   background-color: hsl(120deg, 100%, 25%);
   color: hsl(0deg, 0%, 100%);
@@ -923,7 +923,7 @@ header {
   width: 2rem;
   height: 2rem;
 }
-.product .product-text .product-text-day .plus-minus-counter .plus-minus-counter.sume button:hover {
+.product .product-text .product-text-day .box-plus-minus .plus-minus-counter.sume button:hover {
   cursor: pointer;
 }
 .product .product-text .product-text-booking {
@@ -1038,11 +1038,11 @@ form .form-button-send button:hover {
 .cart .cart-table table td img:hover {
   cursor: pointer;
 }
-.cart .plus-minus-counter {
+.cart .box-plus-minus {
   display: flex;
   justify-content: center;
 }
-.cart .plus-minus-counter .plus-minus-counter.rest button {
+.cart .box-plus-minus .plus-minus-counter.rest button {
   border-radius: 1rem 0 0 1rem;
   background-color: hsl(0deg, 100%, 50%);
   color: hsl(0deg, 0%, 100%);
@@ -1050,15 +1050,15 @@ form .form-button-send button:hover {
   width: 2rem;
   height: 2rem;
 }
-.cart .plus-minus-counter .plus-minus-counter.rest button:hover {
+.cart .box-plus-minus .plus-minus-counter.rest button:hover {
   cursor: pointer;
 }
-.cart .plus-minus-counter .plus-minus.counter input {
+.cart .box-plus-minus .plus-minus.counter input {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
 }
-.cart .plus-minus-counter .plus-minus-counter.sume button {
+.cart .box-plus-minus .plus-minus-counter.sume button {
   border-radius: 0 1rem 1rem 0;
   background-color: hsl(120deg, 100%, 25%);
   color: hsl(0deg, 0%, 100%);
@@ -1066,7 +1066,7 @@ form .form-button-send button:hover {
   width: 2rem;
   height: 2rem;
 }
-.cart .plus-minus-counter .plus-minus-counter.sume button:hover {
+.cart .box-plus-minus .plus-minus-counter.sume button:hover {
   cursor: pointer;
 }
 .cart .cart-resume {
@@ -2298,6 +2298,71 @@ header .header-admin-menu {
 }
 .Tab:hover > a {
   color: hsl(0deg, 0%, 13%);
+}
+
+#notify {
+  background-color: rgba(0, 128, 0, 0.719);
+  bottom: 15vh;
+  opacity: 0;
+  position: fixed;
+  padding: 1.5rem;
+  left: 90vh;
+  transition: opacity 0.5s;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+#notify.active {
+  opacity: 1;
+  z-index: 5000;
+}
+
+#notify.success {
+  background-color: hsl(120deg, 100%, 25%);
+}
+
+#notify.error {
+  background-color: hsl(0deg, 100%, 50%);
+}
+
+#notify span {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+
+.image-content {
+  padding-left: 12rem;
+  padding-top: 3rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.image-content svg {
+  width: 10rem;
+  height: 10rem;
+  top: 35vh;
+  left: 98vh;
+  color: rgb(255, 255, 255);
+}
+.image-content .file-select {
+  width: 10rem;
+  cursor: pointer;
+}
+.image-content .file-select::before {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  content: "Imagen";
+  font-weight: 300;
+}
+.image-content .file-select input[type=file] {
+  opacity: 0;
+  width: 200px;
+  height: 32px;
+  display: inline-block;
 }
 
 .hamburger {

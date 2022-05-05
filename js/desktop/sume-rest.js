@@ -2,13 +2,14 @@ export let sumeRest = () => {
 
     let restas = document.querySelectorAll(".rest");
     let sumas = document.querySelectorAll(".sume");
-    let counters = plus-minus.closest('.counter');
 
     sumas.forEach(suma => {
 
         suma.addEventListener("click", () => {
 
-            counters.value = (parseInt(counters.value) + 1);
+            let contador = suma.closest('.box-plus-minus').querySelector('.plus-minus-input');
+            contador.value  = (parseInt(contador.value) + 1);
+            
         });
     });
 
@@ -16,9 +17,11 @@ export let sumeRest = () => {
 
         resta.addEventListener("click", () => {
 
-            if (tickets.value > 1) {
+            let contador = resta.closest('.box-plus-minus').querySelector('.plus-minus-input');
 
-                tickets.value = (parseInt(tickets.value) - 1);
+            if (contador.value > 1) {
+
+                contador.value = (parseInt(contador.value) - 1);
             }
         });
     });

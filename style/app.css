@@ -2149,8 +2149,13 @@ header {
   height: 1.5rem;
 }
 
-.ckeditor textarea {
+.form-element-textarea {
+  padding-top: 3%;
+  margin-left: 10%;
+}
+.form-element-textarea .ck.ck-editor__editable_inline > :last-child {
   color: black;
+  min-height: 4rem;
 }
 
 .filters {

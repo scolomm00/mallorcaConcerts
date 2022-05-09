@@ -249,7 +249,7 @@
     z-index: $z-index-mobile-menu;
 
     &.up {
-        
+
         top: 0;
         overflow: hidden;
 
@@ -287,6 +287,14 @@
     }
 }
 
-.ckeditor textarea {
-    color: black;
+.form-element-textarea {
+    padding-top: 3%;
+    margin-left: 10%;
+    
+    .ck.ck-editor__editable_inline>:last-child {
+        
+        color: black;
+        min-height: 4rem;
+    }
 }
+

@@ -2149,6 +2149,10 @@ header {
   height: 1.5rem;
 }
 
+.ckeditor textarea {
+  color: black;
+}
+
 .filters {
   width: 100%;
   background-color: hsl(0deg, 0%, 67%);

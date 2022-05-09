@@ -4,8 +4,7 @@ import {tabBar} from './desktop/tab.js';
 import {sumeRest} from './desktop/sume-rest.js';
 import {notify} from './desktop/notify.js';
 import {form} from './desktop/form.js';
-import {ckeditor} from './desktop/ckeditor.js';
-//import {imageContent} from './desktop/image-content.js';
+import {renderCkeditor} from './desktop/ckeditor.js';
 
 burgerButton();
 filterBar();
@@ -13,5 +12,4 @@ tabBar();
 sumeRest();
 notify();
 form();
-ckeditor();
-//imageContent();
+renderCkeditor();

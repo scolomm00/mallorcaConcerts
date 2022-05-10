@@ -1973,24 +1973,27 @@ header {
   text-align: center;
   color: hsl(0deg, 0%, 100%);
 }
-.admin-panel .admin-panel-table table td .table-button-read {
+.admin-panel .admin-panel-table table td .table-buttons {
+  display: flex;
+}
+.admin-panel .admin-panel-table table td .table-buttons .table-button-read {
   padding-right: 0.5rem;
 }
-.admin-panel .admin-panel-table table td .table-button-read svg {
+.admin-panel .admin-panel-table table td .table-buttons .table-button-read svg {
   color: hsl(0deg, 0%, 100%);
   width: 1.5rem;
   height: 1.5rem;
 }
-.admin-panel .admin-panel-table table td .table-button-read svg:hover {
+.admin-panel .admin-panel-table table td .table-buttons .table-button-read svg:hover {
   color: hsl(0deg, 0%, 50%);
   cursor: pointer;
 }
-.admin-panel .admin-panel-table table td .table-button-delete svg {
+.admin-panel .admin-panel-table table td .table-buttons .table-button-delete svg {
   color: hsl(0deg, 0%, 100%);
   width: 1.5rem;
   height: 1.5rem;
 }
-.admin-panel .admin-panel-table table td .table-button-delete svg:hover {
+.admin-panel .admin-panel-table table td .table-buttons .table-button-delete svg:hover {
   color: hsl(0deg, 96%, 39%);
   cursor: pointer;
 }

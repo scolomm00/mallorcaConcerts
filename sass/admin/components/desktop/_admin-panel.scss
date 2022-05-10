@@ -25,39 +25,45 @@
                 text-align: center;
                 color: hsl(0, 0%, 100%);
 
-                .table-button-read {
+                .table-buttons{
 
-                    padding-right: 0.5rem;
+                    display: flex;
 
-                    svg {
+                    .table-button-read {
 
-                        color: hsl(0, 0%, 100%);
-                        width: 1.5rem;
-                        height: 1.5rem;
-
-                        &:hover {
-
-                            color: hsl(0, 0%, 50%);
-                            cursor: pointer;
+                        padding-right: 0.5rem;
+    
+                        svg {
+    
+                            color: hsl(0, 0%, 100%);
+                            width: 1.5rem;
+                            height: 1.5rem;
+    
+                            &:hover {
+    
+                                color: hsl(0, 0%, 50%);
+                                cursor: pointer;
+                            }
+                        }
+                    }
+    
+                    .table-button-delete {
+    
+                        svg {
+    
+                            color: hsl(0, 0%, 100%);
+                            width: 1.5rem;
+                            height: 1.5rem;
+    
+                            &:hover {
+    
+                                color: hsl(0, 96%, 39%);
+                                cursor: pointer;
+                            }
                         }
                     }
                 }
-
-                .table-button-delete {
-
-                    svg {
-
-                        color: hsl(0, 0%, 100%);
-                        width: 1.5rem;
-                        height: 1.5rem;
-
-                        &:hover {
-
-                            color: hsl(0, 96%, 39%);
-                            cursor: pointer;
-                        }
-                    }
-                }
+                
 
             }
         }

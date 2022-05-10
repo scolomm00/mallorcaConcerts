@@ -1296,6 +1296,9 @@ form .form-button-send button:hover {
 .admin-panel {
   margin: 2%;
 }
+.admin-panel .admin-panel-table table {
+  margin: 10% 0 10% 0;
+}
 .admin-panel .admin-panel-table table th {
   padding: 0.1rem;
   font-size: 1rem;

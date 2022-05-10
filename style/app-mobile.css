@@ -1293,4 +1293,608 @@ form .form-button-send button:hover {
   display: block;
 }
 
+.admin-panel {
+  margin: 2%;
+}
+.admin-panel .admin-panel-table table th {
+  padding: 0.1rem;
+  font-size: 1rem;
+  border-bottom: 2px solid hsl(0deg, 0%, 100%);
+  color: hsl(0deg, 0%, 100%);
+}
+.admin-panel .admin-panel-table table td {
+  font-weight: 300;
+  padding: 0.4rem;
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+}
+.admin-panel .admin-panel-table table td .table-buttons {
+  display: flex;
+}
+.admin-panel .admin-panel-table table td .table-buttons .table-button-read svg {
+  color: hsl(0deg, 0%, 100%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.admin-panel .admin-panel-table table td .table-buttons .table-button-read svg:hover {
+  color: hsl(0deg, 0%, 50%);
+  cursor: pointer;
+}
+.admin-panel .admin-panel-table table td .table-buttons .table-button-delete svg {
+  color: hsl(0deg, 0%, 100%);
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.admin-panel .admin-panel-table table td .table-buttons .table-button-delete svg:hover {
+  color: hsl(0deg, 96%, 39%);
+  cursor: pointer;
+}
+.admin-panel .admin-panel-form {
+  margin-top: 2%;
+}
+.admin-panel .admin-panel-form .form-element {
+  padding-top: 1rem;
+  width: 100%;
+}
+.admin-panel .admin-panel-form .form-element .form-element-label {
+  margin-bottom: 0.5rem;
+}
+.admin-panel .admin-panel-form .form-element .form-element-label label {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.admin-panel .admin-panel-form .form-element .form-element-input input {
+  width: 90%;
+  font-size: 100%;
+  height: 1.5rem;
+}
+.admin-panel .admin-panel-form .form-button {
+  padding-top: 60%;
+  display: flex;
+  justify-content: center;
+  padding-right: 0.5rem;
+  width: 100%;
+  padding-bottom: 20%;
+}
+.admin-panel .admin-panel-form .form-button .form-button-create {
+  padding-right: 2rem;
+  width: 50%;
+}
+.admin-panel .admin-panel-form .form-button .form-button-create button {
+  display: flex;
+  padding: 0.5rem;
+  width: 11.5rem;
+  border-radius: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.admin-panel .admin-panel-form .form-button .form-button-create button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 0.5rem;
+}
+.admin-panel .admin-panel-form .form-button .form-button-create button:hover {
+  cursor: pointer;
+  color: hsl(0deg, 0%, 100%);
+}
+.admin-panel .admin-panel-form .form-button .form-button-update button {
+  display: flex;
+  padding: 0.5rem;
+  width: 8rem;
+  border-radius: 10px;
+  background-color: hsla(0deg, 0%, 0%, 0.548);
+  color: hsl(0deg, 0%, 100%);
+  border: 2px solid hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.admin-panel .admin-panel-form .form-button .form-button-update button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-right: 0.5rem;
+}
+.admin-panel .admin-panel-form .form-button .form-button-update button:hover {
+  cursor: pointer;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.footer-admin {
+  margin-top: 10%;
+  border-top: 3px solid hsl(0deg, 0%, 100%);
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+}
+.footer-admin img {
+  margin-top: 1.5%;
+}
+
+/*---------------------*/
+.hamburger {
+  margin-top: 10%;
+}
+.hamburger .line {
+  background: hsl(0deg, 0%, 100%);
+  height: 0.5rem;
+  width: 4rem;
+  margin-bottom: 0.7rem;
+  transition: all 1s;
+}
+.hamburger.active .line1 {
+  transform: rotate(0.125turn) translate(0, 25px);
+}
+.hamburger.active .line2 {
+  opacity: 0;
+}
+.hamburger.active .line3 {
+  transform: rotate(-0.125turn) translate(0, -26px);
+}
+
+.header-admin-menu {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  z-index: 5001;
+}
+.header-admin-menu svg {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+.header-admin-menu svg:hover {
+  color: hsla(0deg, 100%, 50%, 0.588);
+}
+
+.admin-menu {
+  background-color: hsl(0deg, 0%, 0%);
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: -100vh;
+  transition: top 0.5s;
+  width: 100%;
+  z-index: 5000;
+}
+.admin-menu.up {
+  top: 0;
+  overflow: hidden;
+}
+.admin-menu.up ul {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30% 30%;
+}
+.admin-menu.up li {
+  margin-bottom: 20%;
+  z-index: 5000;
+  cursor: pointer;
+  font-family: "Roboto Condensed";
+  font-size: 1.5rem;
+  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+  color: hsl(0deg, 0%, 100%);
+}
+.admin-menu.up li:hover {
+  color: hsla(0deg, 100%, 50%, 0.588);
+}
+.admin-menu.up svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.form-element-textarea {
+  padding-top: 5%;
+}
+.form-element-textarea .ck.ck-editor__editable_inline > :last-child {
+  color: black;
+  min-height: 4rem;
+}
+
+.banner {
+  border-top: solid 3px hsla(0deg, 100%, 50%, 0.493);
+  border-bottom: solid 3px hsla(0deg, 100%, 50%, 0.541);
+}
+.banner .banner-text {
+  left: 10%;
+  top: 30vh;
+  width: 70%;
+  position: absolute;
+  z-index: 1;
+}
+.banner .banner-text h1 {
+  font-family: fantasy;
+  font-size: 200%;
+  font-style: oblique;
+  color: hsl(47deg, 7%, 63%);
+  -webkit-text-stroke: 2px hsl(0deg, 0%, 0%);
+  font-weight: 900;
+}
+.banner .banner-button {
+  position: absolute;
+  left: 10%;
+  top: 70vh;
+  z-index: 1;
+}
+.banner .banner-button button {
+  width: 15rem;
+  height: 4rem;
+  border-radius: 10px;
+  font-size: 150%;
+  font-weight: bolder;
+  font-family: "Roboto Condensed";
+  background-color: hsla(0deg, 0%, 38%, 0.815);
+  cursor: pointer;
+}
+.banner .banner-button button:hover {
+  background-color: hsla(0deg, 0%, 38%, 0.938);
+  box-shadow: 5px 5px 15px 5px hsla(123deg, 100%, 50%, 0.835);
+}
+
+.hamburger {
+  margin-top: 10%;
+}
+.hamburger .line {
+  background: rgb(255, 255, 255);
+  height: 0.2rem;
+  width: 2rem;
+  margin-bottom: 0.5rem;
+  transition: all 1s;
+}
+.hamburger.active .line1 {
+  transform: rotate(0.125turn) translate(0, 15px);
+}
+.hamburger.active .line2 {
+  opacity: 0;
+}
+.hamburger.active .line3 {
+  transform: rotate(-0.125turn) translate(0, -16px);
+}
+
+.featured {
+  margin: 0 5%;
+}
+.featured .featured-title {
+  padding: 2rem;
+}
+.featured .featured-title h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed";
+  font-size: 200%;
+  /*font-style: oblique;*/
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 900;
+  content: "»";
+}
+.featured .featured-block {
+  padding: 1rem 0;
+}
+.featured .featured-block .featured-element {
+  border: solid 3px hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+  background-color: hsla(0deg, 1%, 74%, 0.76);
+  margin-bottom: 1rem;
+  padding: 0.1rem;
+  box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
+}
+.featured .featured-block .featured-element .featured-element-title {
+  min-height: 4vh;
+  max-height: 10vh;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0 0.3rem;
+}
+.featured .featured-block .featured-element .featured-element-title span {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.featured .featured-block .featured-element .featured-element-title span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.featured .featured-block .featured-element .featured-element-image:hover {
+  cursor: pointer;
+}
+.featured .featured-block .featured-element .featured-element-day svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.featured .featured-block .featured-element .featured-element-address {
+  min-height: 5vh;
+  max-height: 10vh;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.featured .featured-block .featured-element .featured-element-address svg {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.featured .featured-block .featured-element .featured-element-buy {
+  padding: 0.5rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.featured .featured-block .featured-element .featured-element-buy button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 10px;
+  font-size: 150%;
+  font-weight: bolder;
+  font-family: "Roboto Condensed";
+  background-color: hsla(0deg, 0%, 0%, 0.966);
+  cursor: pointer;
+  color: hsl(0deg, 0%, 100%);
+}
+.featured .featured-block .featured-element .featured-element-buy button:hover {
+  box-shadow: 5px 5px 15px 5px hsl(120deg, 100%, 25%);
+  border: solid 2px hsl(0deg, 0%, 0%);
+}
+.featured .featured-block .featured-element:hover {
+  box-shadow: 5px 5px 15px 5px hsla(0deg, 100%, 50%, 0.835);
+}
+
+.filters {
+  width: 100%;
+  background-color: hsl(0deg, 0%, 67%);
+  justify-content: center;
+  text-align: center;
+}
+.filters svg {
+  margin: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  color: hsl(0deg, 0%, 0%);
+}
+.filters:hover {
+  cursor: pointer;
+}
+.filters #filter-bar {
+  background-color: hsl(0deg, 0%, 67%);
+  height: 0;
+  transition: height 0.5s;
+}
+.filters #filter-bar h1 {
+  display: none;
+}
+.filters #filter-bar.active {
+  height: 30vh;
+  transition: height 0.5s;
+  border-top: 1px solid hsl(0deg, 0%, 0%);
+}
+.filters #filter-bar.active h1 {
+  display: block;
+  text-align: center;
+  margin-top: 8%;
+  color: hsl(0deg, 0%, 0%);
+}
+
+.find-us {
+  margin: 0 5%;
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+.find-us .find-us-main {
+  margin: 2rem 0;
+}
+.find-us .find-us-main h1 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Condensed";
+  font-size: 200%;
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 900;
+}
+.find-us .find-us-content {
+  border: solid 3px hsl(0deg, 0%, 100%);
+  background-color: hsla(0deg, 1%, 74%, 0.76);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 0.5rem 15%;
+}
+.find-us .find-us-content .find-us-content-title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.find-us .find-us-content .find-us-content-text {
+  padding-bottom: 1rem;
+}
+.find-us .find-us-map iframe {
+  width: 100%;
+  height: 22rem;
+  border: solid 3px hsl(0deg, 0%, 100%);
+  border-radius: 10px;
+}
+
+header {
+  padding-top: 2%;
+  background-color: hsl(0deg, 0%, 0%);
+}
+header .header-admin-logo h1 {
+  color: hsl(0deg, 0%, 100%);
+}
+header .header-admin-logo h1 svg {
+  padding-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+header .header-admin-menu {
+  margin-top: 0.7%;
+  margin-left: auto;
+  width: max-content;
+  cursor: pointer;
+}
+
+.image-content {
+  padding-left: 8rem;
+  padding-top: 6rem;
+  background-color: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.image-content svg {
+  width: 10rem;
+  height: 10rem;
+  top: 35vh;
+  left: 80vh;
+  color: rgb(255, 255, 255);
+}
+.image-content .file-select {
+  width: 10rem;
+  cursor: pointer;
+}
+.image-content .file-select::before {
+  border: 2px solid rgb(255, 255, 255);
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  content: "Imagen";
+  font-weight: 300;
+}
+.image-content .file-select input[type=file] {
+  opacity: 0;
+  width: 200px;
+  height: 32px;
+  display: inline-block;
+}
+
+#notify {
+  background-color: rgba(0, 128, 0, 0.719);
+  bottom: 10vh;
+  opacity: 0;
+  position: fixed;
+  padding: 1.5rem;
+  left: 7vh;
+  transition: opacity 0.5s;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+#notify.active {
+  opacity: 1;
+  z-index: 5000;
+}
+
+#notify.success {
+  background-color: hsl(120deg, 100%, 25%);
+}
+
+#notify.error {
+  background-color: hsl(0deg, 100%, 50%);
+}
+
+#notify span {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 600;
+}
+
+.Panel {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+}
+.Panel__body {
+  background-color: hsl(0deg, 0%, 0%);
+  padding: 10px 20px;
+}
+
+.Tabs {
+  position: relative;
+  background-color: hsl(0deg, 0%, 100%);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /**
+   * UPDATE: better to animate "transform" property than "left"
+   * property. You can see old code lower down for reference.
+   */
+  /**
+   * OLD CODE (for reference)
+   * It's a bit easier to understand with "left",
+   * but the animation is not as smooth
+   */
+}
+.Tabs:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.Tabs__tab {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.Tabs__tab:first-child.active ~ .Tabs__presentation-slider {
+  transform: translateX(0) scaleX(0.333);
+}
+.Tabs__tab:nth-child(2).active ~ .Tabs__presentation-slider {
+  transform: translateX(33.333%) scaleX(0.333);
+}
+.Tabs__tab:nth-child(3).active ~ .Tabs__presentation-slider {
+  transform: translateX(66.666%) scaleX(0.333);
+}
+.Tabs__presentation-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: hsl(230deg, 90%, 63%);
+  transform-origin: 0 0;
+  transition: transform 0.25s;
+}
+.Tabs__tab {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+.Tabs__tab:first-child.active ~ .Tabs__presentation-slider {
+  left: 0;
+}
+.Tabs__tab:nth-child(2).active ~ .Tabs__presentation-slider {
+  left: 33.333%;
+}
+.Tabs__tab:nth-child(3).active ~ .Tabs__presentation-slider {
+  left: 66.666%;
+}
+.Tabs__presentation-slider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 33.333%;
+  height: 2px;
+  background-color: hsl(230deg, 89%, 62%);
+  transform-origin: 0 0;
+  transition: left 0.25s;
+}
+
+.Tab {
+  font-family: "Roboto Slab";
+}
+.Tab > a {
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+  color: hsl(0deg, 0%, 40%);
+  transition: color 0.15s;
+}
+.Tab.active > a {
+  color: hsl(0deg, 0%, 13%);
+}
+.Tab:hover > a {
+  color: hsl(0deg, 0%, 13%);
+}
+
 /*# sourceMappingURL=app-mobile.css.map */

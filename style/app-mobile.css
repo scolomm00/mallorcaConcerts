@@ -1293,6 +1293,62 @@ form .form-button-send button:hover {
   display: block;
 }
 
+.faqs-container {
+  margin-bottom: 10%;
+}
+.faqs-container .faqs-title {
+  margin: 5% 0 10% 0;
+  text-align: center;
+}
+.faqs-container .faqs-title span {
+  text-decoration: underline;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.faqs-container .box-faqs .faq {
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  transition: height 0.5s;
+}
+.faqs-container .box-faqs .faq:hover {
+  cursor: pointer;
+}
+.faqs-container .box-faqs .faq span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 1.2rem;
+}
+.faqs-container .box-faqs .faq .icon-svg {
+  margin-left: auto;
+  width: max-content;
+}
+.faqs-container .box-faqs .faq .icon-svg svg {
+  transform: rotate(-90deg);
+  color: rgb(255, 255, 255);
+  height: 2rem;
+  width: 2rem;
+}
+.faqs-container .box-faqs .faq.active svg {
+  transform: rotate(0deg);
+}
+.faqs-container .box-faqs .faq-content {
+  opacity: 0;
+  height: 0;
+}
+.faqs-container .box-faqs .faq-content.active {
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin: 1rem;
+  opacity: 1;
+  transition: all 1s;
+  height: auto;
+}
+
 .admin-panel {
   margin: 2%;
 }

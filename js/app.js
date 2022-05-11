@@ -5,7 +5,7 @@ import {sumeRest} from './desktop/sume-rest.js';
 import {notify} from './desktop/notify.js';
 import {form} from './desktop/form.js';
 import {renderCkeditor} from './desktop/ckeditor.js';
-import {imageContent} from './desktop/image-content.js';
+import{renderFaqs} from './desktop/faqs.js';
 
 burgerButton();
 filterBar();
@@ -14,4 +14,4 @@ sumeRest();
 notify();
 form();
 renderCkeditor();
-imageContent();
+renderFaqs();

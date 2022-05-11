@@ -6,6 +6,7 @@ import {notify} from './desktop/notify.js';
 import {form} from './desktop/form.js';
 import {renderCkeditor} from './desktop/ckeditor.js';
 import{renderFaqs} from './desktop/faqs.js';
+import{imageContent} from './desktop/image-content.js';
 
 burgerButton();
 filterBar();
@@ -15,3 +16,4 @@ notify();
 form();
 renderCkeditor();
 renderFaqs();
+imageContent();

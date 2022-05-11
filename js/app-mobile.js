@@ -5,7 +5,8 @@ import {sumeRest} from './mobile/sume-rest.js';
 import {notify} from './mobile/notify.js';
 import {form} from './mobile/form.js';
 import {renderCkeditor} from './mobile/ckeditor.js';
-import{renderFaqs} from './mobile/faqs.js';
+import {renderFaqs} from './mobile/faqs.js';
+import {renderSelects} from './mobile/select.js';
 
 
 burgerButton();
@@ -16,3 +17,4 @@ notify();
 form();
 renderCkeditor();
 renderFaqs();
+renderSelects();

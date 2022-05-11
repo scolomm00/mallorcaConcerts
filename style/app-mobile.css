@@ -833,7 +833,7 @@ form .form-element .form-element-input input {
   height: 1.5rem;
 }
 form .form-element textarea {
-  width: 24rem;
+  width: 100%;
   height: 8rem;
 }
 form .form-button-send {

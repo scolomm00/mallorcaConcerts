@@ -9,113 +9,124 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/app.js":
-/*!*******************!*\
-  !*** ./js/app.js ***!
-  \*******************/
+/***/ "./js/app-mobile.js":
+/*!**************************!*\
+  !*** ./js/app-mobile.js ***!
+  \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _desktop_burger_button_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./desktop/burger-button.js */ \"./js/desktop/burger-button.js\");\n/* harmony import */ var _desktop_filter_bar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./desktop/filter-bar.js */ \"./js/desktop/filter-bar.js\");\n/* harmony import */ var _desktop_tab_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./desktop/tab.js */ \"./js/desktop/tab.js\");\n/* harmony import */ var _desktop_sume_rest_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./desktop/sume-rest.js */ \"./js/desktop/sume-rest.js\");\n/* harmony import */ var _desktop_notify_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./desktop/notify.js */ \"./js/desktop/notify.js\");\n/* harmony import */ var _desktop_form_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./desktop/form.js */ \"./js/desktop/form.js\");\n/* harmony import */ var _desktop_ckeditor_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./desktop/ckeditor.js */ \"./js/desktop/ckeditor.js\");\n/* harmony import */ var _desktop_faqs_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./desktop/faqs.js */ \"./js/desktop/faqs.js\");\n/* harmony import */ var _desktop_image_content_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./desktop/image-content.js */ \"./js/desktop/image-content.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(0,_desktop_burger_button_js__WEBPACK_IMPORTED_MODULE_0__.burgerButton)();\r\n(0,_desktop_filter_bar_js__WEBPACK_IMPORTED_MODULE_1__.filterBar)();\r\n(0,_desktop_tab_js__WEBPACK_IMPORTED_MODULE_2__.tabBar)();\r\n(0,_desktop_sume_rest_js__WEBPACK_IMPORTED_MODULE_3__.sumeRest)();\r\n(0,_desktop_notify_js__WEBPACK_IMPORTED_MODULE_4__.notify)();\r\n(0,_desktop_form_js__WEBPACK_IMPORTED_MODULE_5__.form)();\r\n(0,_desktop_ckeditor_js__WEBPACK_IMPORTED_MODULE_6__.renderCkeditor)();\r\n(0,_desktop_faqs_js__WEBPACK_IMPORTED_MODULE_7__.renderFaqs)();\r\n(0,_desktop_image_content_js__WEBPACK_IMPORTED_MODULE_8__.imageContent)();\n\n//# sourceURL=webpack:///./js/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mobile_burger_button_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mobile/burger-button.js */ \"./js/mobile/burger-button.js\");\n/* harmony import */ var _mobile_filter_bar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mobile/filter-bar.js */ \"./js/mobile/filter-bar.js\");\n/* harmony import */ var _mobile_tab_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mobile/tab.js */ \"./js/mobile/tab.js\");\n/* harmony import */ var _mobile_sume_rest_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./mobile/sume-rest.js */ \"./js/mobile/sume-rest.js\");\n/* harmony import */ var _mobile_notify_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mobile/notify.js */ \"./js/mobile/notify.js\");\n/* harmony import */ var _mobile_form_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mobile/form.js */ \"./js/mobile/form.js\");\n/* harmony import */ var _mobile_ckeditor_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mobile/ckeditor.js */ \"./js/mobile/ckeditor.js\");\n/* harmony import */ var _mobile_faqs_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./mobile/faqs.js */ \"./js/mobile/faqs.js\");\n/* harmony import */ var _mobile_select_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./mobile/select.js */ \"./js/mobile/select.js\");\n/* harmony import */ var _mobile_image_content_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./mobile/image-content.js */ \"./js/mobile/image-content.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n(0,_mobile_burger_button_js__WEBPACK_IMPORTED_MODULE_0__.burgerButton)();\r\n(0,_mobile_filter_bar_js__WEBPACK_IMPORTED_MODULE_1__.filterBar)();\r\n(0,_mobile_tab_js__WEBPACK_IMPORTED_MODULE_2__.tabBar)();\r\n(0,_mobile_sume_rest_js__WEBPACK_IMPORTED_MODULE_3__.sumeRest)();\r\n(0,_mobile_notify_js__WEBPACK_IMPORTED_MODULE_4__.notify)();\r\n(0,_mobile_form_js__WEBPACK_IMPORTED_MODULE_5__.form)();\r\n(0,_mobile_ckeditor_js__WEBPACK_IMPORTED_MODULE_6__.renderCkeditor)();\r\n(0,_mobile_faqs_js__WEBPACK_IMPORTED_MODULE_7__.renderFaqs)();\r\n(0,_mobile_select_js__WEBPACK_IMPORTED_MODULE_8__.renderSelects)();\r\n(0,_mobile_image_content_js__WEBPACK_IMPORTED_MODULE_9__.imageContent)();\r\n\n\n//# sourceURL=webpack:///./js/app-mobile.js?");
 
 /***/ }),
 
-/***/ "./js/desktop/burger-button.js":
-/*!*************************************!*\
-  !*** ./js/desktop/burger-button.js ***!
-  \*************************************/
+/***/ "./js/mobile/burger-button.js":
+/*!************************************!*\
+  !*** ./js/mobile/burger-button.js ***!
+  \************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"burgerButton\": () => (/* binding */ burgerButton)\n/* harmony export */ });\nlet burgerButton = () => {\r\n\r\n    let menuButton = document.getElementById(\"menuButton\");\r\n    let menuList = document.getElementById(\"menuList\");\r\n\r\n    if(menuButton && menuList){\r\n        menuButton.addEventListener(\"click\", () => {\r\n\r\n            menuButton.classList.toggle('active');\r\n            menuList.classList.toggle('up');\r\n    \r\n        });\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack:///./js/desktop/burger-button.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"burgerButton\": () => (/* binding */ burgerButton)\n/* harmony export */ });\nlet burgerButton = () => {\r\n\r\n    let menuButton = document.getElementById(\"menuButton\");\r\n    let menuList = document.getElementById(\"menuList\");\r\n    \r\n    menuButton.addEventListener(\"click\", () => {\r\n    \r\n        menuButton.classList.toggle('active');\r\n        menuList.classList.toggle('up');\r\n    \r\n    });\r\n}\r\n\n\n//# sourceURL=webpack:///./js/mobile/burger-button.js?");
 
 /***/ }),
 
-/***/ "./js/desktop/ckeditor.js":
-/*!********************************!*\
-  !*** ./js/desktop/ckeditor.js ***!
-  \********************************/
+/***/ "./js/mobile/ckeditor.js":
+/*!*******************************!*\
+  !*** ./js/mobile/ckeditor.js ***!
+  \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderCkeditor\": () => (/* binding */ renderCkeditor)\n/* harmony export */ });\n/* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ckeditor/ckeditor5-build-classic */ \"./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js\");\n/* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nlet renderCkeditor = () => {\r\n\r\n\r\n  window.editors = {};\r\n  document.querySelectorAll('.ckeditor').forEach((node, index) => {\r\n    _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0___default().create(node, {}).\r\n    then(newEditor => {\r\n      window.editors[index] = newEditor;\r\n    });\r\n  });\r\n}\n\n//# sourceURL=webpack:///./js/desktop/ckeditor.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderCkeditor\": () => (/* binding */ renderCkeditor)\n/* harmony export */ });\n/* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @ckeditor/ckeditor5-build-classic */ \"./node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor.js\");\n/* harmony import */ var _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nlet renderCkeditor = () => {\r\n\r\n\r\n  window.editors = {};\r\n  document.querySelectorAll('.ckeditor').forEach((node, index) => {\r\n    _ckeditor_ckeditor5_build_classic__WEBPACK_IMPORTED_MODULE_0___default().create(node, {}).\r\n    then(newEditor => {\r\n      window.editors[index] = newEditor;\r\n    });\r\n  });\r\n}\n\n//# sourceURL=webpack:///./js/mobile/ckeditor.js?");
 
 /***/ }),
 
-/***/ "./js/desktop/faqs.js":
-/*!****************************!*\
-  !*** ./js/desktop/faqs.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderFaqs\": () => (/* binding */ renderFaqs)\n/* harmony export */ });\nlet renderFaqs = () => {\r\n\r\n    let faqs = document.querySelectorAll('.faq');\r\n    let faqsContent = document.querySelectorAll('.faq-content');\r\n\r\n    if (faqs && faqsContent) {\r\n\r\n        faqs.forEach(faq => {\r\n\r\n            faq.addEventListener('click', () => {\r\n\r\n                faqsContent.forEach(faqContent => {\r\n\r\n                    faqContent.classList.remove('active');\r\n\r\n                    if (faqContent.dataset.num == faq.dataset.num) {\r\n                        faqContent.classList.add('active');\r\n                    }\r\n                });\r\n\r\n\r\n                faqs.forEach(faq => {\r\n\r\n                    faq.classList.remove('active');\r\n                });\r\n\r\n                faq.classList.add('active');\r\n            });  \r\n        });\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack:///./js/desktop/faqs.js?");
-
-/***/ }),
-
-/***/ "./js/desktop/filter-bar.js":
-/*!**********************************!*\
-  !*** ./js/desktop/filter-bar.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"filterBar\": () => (/* binding */ filterBar)\n/* harmony export */ });\nlet filterBar = () => {\r\n\r\n    let filterBar = document.getElementById(\"filter-bar\");\r\n    let filterButton = document.getElementById(\"filter-button\");\r\n\r\n    if(filterBar){\r\n        filterButton.addEventListener(\"click\", () => {\r\n\r\n            filterBar.classList.toggle(\"active\");\r\n    \r\n        });\r\n    }\r\n}\n\n//# sourceURL=webpack:///./js/desktop/filter-bar.js?");
-
-/***/ }),
-
-/***/ "./js/desktop/form.js":
-/*!****************************!*\
-  !*** ./js/desktop/form.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"form\": () => (/* binding */ form)\n/* harmony export */ });\nlet form = () => {\r\n\r\n    let storeButton = document.getElementById('store-button');\r\n\r\n    if (storeButton) {\r\n\r\n        storeButton.addEventListener('click', (event) => {\r\n\r\n            event.preventDefault();\r\n\r\n            document.dispatchEvent(new CustomEvent('message', {\r\n                detail: {\r\n                    text: 'Formulario enviado correctamente',\r\n                    type: 'success'\r\n                }\r\n            }));\r\n        });\r\n    }\r\n}\n\n//# sourceURL=webpack:///./js/desktop/form.js?");
-
-/***/ }),
-
-/***/ "./js/desktop/image-content.js":
-/*!*************************************!*\
-  !*** ./js/desktop/image-content.js ***!
-  \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imageContent\": () => (/* binding */ imageContent)\n/* harmony export */ });\nlet imageContent = () => {\r\n    document.querySelectorAll(\".drop-zone__input\").forEach((inputElement) => {\r\n        const dropZoneElement = inputElement.closest(\".drop-zone\");\r\n\r\n        dropZoneElement.addEventListener(\"click\", (e) => {\r\n            inputElement.click();\r\n        });\r\n\r\n        inputElement.addEventListener(\"change\", (e) => {\r\n            if (inputElement.files.length) {\r\n                updateThumbnail(dropZoneElement, inputElement.files[0]);\r\n            }\r\n        });\r\n\r\n        dropZoneElement.addEventListener(\"dragover\", (e) => {\r\n            e.preventDefault();\r\n            dropZoneElement.classList.add(\"drop-zone--over\");\r\n        });\r\n\r\n        [\"dragleave\", \"dragend\"].forEach((type) => {\r\n            dropZoneElement.addEventListener(type, (e) => {\r\n                dropZoneElement.classList.remove(\"drop-zone--over\");\r\n            });\r\n        });\r\n\r\n        dropZoneElement.addEventListener(\"drop\", (e) => {\r\n            e.preventDefault();\r\n\r\n            if (e.dataTransfer.files.length) {\r\n                inputElement.files = e.dataTransfer.files;\r\n                updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);\r\n            }\r\n\r\n            dropZoneElement.classList.remove(\"drop-zone--over\");\r\n        });\r\n    });\r\n\r\n    /**\r\n     * Updates the thumbnail on a drop zone element.\r\n     *\r\n     * @param {HTMLElement} dropZoneElement\r\n     * @param {File} file\r\n     */\r\n    function updateThumbnail(dropZoneElement, file) {\r\n        let thumbnailElement = dropZoneElement.querySelector(\".drop-zone__thumb\");\r\n\r\n        // First time - remove the prompt\r\n        if (dropZoneElement.querySelector(\".drop-zone__prompt\")) {\r\n            dropZoneElement.querySelector(\".drop-zone__prompt\").remove();\r\n        }\r\n\r\n        // First time - there is no thumbnail element, so lets create it\r\n        if (!thumbnailElement) {\r\n            thumbnailElement = document.createElement(\"div\");\r\n            thumbnailElement.classList.add(\"drop-zone__thumb\");\r\n            dropZoneElement.appendChild(thumbnailElement);\r\n        }\r\n\r\n        thumbnailElement.dataset.label = file.name;\r\n\r\n        // Show thumbnail for image files\r\n        if (file.type.startsWith(\"image/\")) {\r\n            const reader = new FileReader();\r\n\r\n            reader.readAsDataURL(file);\r\n            reader.onload = () => {\r\n                thumbnailElement.style.backgroundImage = `url('${reader.result}')`;\r\n            };\r\n        } else {\r\n            thumbnailElement.style.backgroundImage = null;\r\n        }\r\n    }\r\n}\n\n//# sourceURL=webpack:///./js/desktop/image-content.js?");
-
-/***/ }),
-
-/***/ "./js/desktop/notify.js":
-/*!******************************!*\
-  !*** ./js/desktop/notify.js ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"notify\": () => (/* binding */ notify)\n/* harmony export */ });\nlet notify = () => {\r\n\r\n    document.addEventListener('message', (event => {\r\n\r\n        let notify = document.getElementById('notify');\r\n        let notificationMessage = document.getElementById('notification-message');\r\n\r\n        notificationMessage.innerHTML = event.detail.text;\r\n        notify.classList.add(event.detail.type);\r\n        notify.classList.add('active');\r\n\r\n        setTimeout(() => {\r\n\r\n            notify.classList.remove('active');\r\n            notify.classList.remove(event.detail.type);\r\n        }, 5000);\r\n\r\n    }));\r\n}\n\n//# sourceURL=webpack:///./js/desktop/notify.js?");
-
-/***/ }),
-
-/***/ "./js/desktop/sume-rest.js":
-/*!*********************************!*\
-  !*** ./js/desktop/sume-rest.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sumeRest\": () => (/* binding */ sumeRest)\n/* harmony export */ });\nlet sumeRest = () => {\r\n\r\n    let restas = document.querySelectorAll(\".rest\");\r\n    let sumas = document.querySelectorAll(\".sume\");\r\n\r\n    sumas.forEach(suma => {\r\n\r\n        suma.addEventListener(\"click\", () => {\r\n\r\n            let contador = suma.closest('.box-plus-minus').querySelector('.plus-minus-input');\r\n            contador.value  = (parseInt(contador.value) + 1);\r\n            \r\n        });\r\n    });\r\n\r\n    restas.forEach(resta => {\r\n\r\n        resta.addEventListener(\"click\", () => {\r\n\r\n            let contador = resta.closest('.box-plus-minus').querySelector('.plus-minus-input');\r\n\r\n            if (contador.value > 1) {\r\n\r\n                contador.value = (parseInt(contador.value) - 1);\r\n            }\r\n        });\r\n    });\r\n}\n\n//# sourceURL=webpack:///./js/desktop/sume-rest.js?");
-
-/***/ }),
-
-/***/ "./js/desktop/tab.js":
+/***/ "./js/mobile/faqs.js":
 /*!***************************!*\
-  !*** ./js/desktop/tab.js ***!
+  !*** ./js/mobile/faqs.js ***!
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"tabBar\": () => (/* binding */ tabBar)\n/* harmony export */ });\nlet tabBar = () => {\r\n\r\n    let tabs = document.querySelectorAll('.tab');\r\n    let tabsContent = document.querySelectorAll('.tab-content');\r\n\r\n    tabs.forEach(tab => {\r\n\r\n        tab.addEventListener('click', () => {\r\n\r\n            tabsContent.forEach(tabContent => {\r\n\r\n                tabContent.classList.remove('active');\r\n\r\n                if (tabContent.dataset.num == tab.dataset.num) {\r\n                    tabContent.classList.add('active');\r\n                }\r\n            });\r\n\r\n            tabs.forEach(tab => {\r\n\r\n                tab.classList.remove('active');\r\n            });\r\n\r\n            tab.classList.add('active');\r\n        });\r\n\r\n    });\r\n}\r\n\n\n//# sourceURL=webpack:///./js/desktop/tab.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderFaqs\": () => (/* binding */ renderFaqs)\n/* harmony export */ });\nlet renderFaqs = () => {\r\n\r\n    let faqs = document.querySelectorAll('.faq');\r\n    let faqsContent = document.querySelectorAll('.faq-content');\r\n\r\n    if (faqs && faqsContent) {\r\n\r\n        faqs.forEach(faq => {\r\n\r\n            faq.addEventListener('click', () => {\r\n\r\n                faqsContent.forEach(faqContent => {\r\n\r\n                    faqContent.classList.remove('active');\r\n\r\n                    if (faqContent.dataset.num == faq.dataset.num) {\r\n                        faqContent.classList.add('active');\r\n                    }\r\n                });\r\n\r\n\r\n                faqs.forEach(faq => {\r\n\r\n                    faq.classList.remove('active');\r\n                });\r\n\r\n                faq.classList.add('active');\r\n            });  \r\n        });\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack:///./js/mobile/faqs.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/filter-bar.js":
+/*!*********************************!*\
+  !*** ./js/mobile/filter-bar.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"filterBar\": () => (/* binding */ filterBar)\n/* harmony export */ });\nlet filterBar = () => {\r\n\r\n    let filterBar = document.getElementById(\"filter-bar\");\r\n    let filterButton = document.getElementById(\"filter-button\");\r\n\r\n    if(filterBar){\r\n        filterButton.addEventListener(\"click\", () => {\r\n\r\n            filterBar.classList.toggle(\"active\");\r\n    \r\n        });\r\n    }\r\n}\r\n\n\n//# sourceURL=webpack:///./js/mobile/filter-bar.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/form.js":
+/*!***************************!*\
+  !*** ./js/mobile/form.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"form\": () => (/* binding */ form)\n/* harmony export */ });\nlet form = () => {\r\n\r\n    let storeButtons = document.querySelectorAll('.store-button');\r\n\r\n    storeButtons.forEach(storeButton => {\r\n        storeButton.addEventListener('click', (event) => {\r\n\r\n            event.preventDefault();\r\n\r\n            document.dispatchEvent(new CustomEvent('message', {\r\n                detail: {\r\n                    text: 'Formulario enviado correctamente',\r\n                    type: 'success'\r\n                }\r\n            }));\r\n        });\r\n    })\r\n}\n\n//# sourceURL=webpack:///./js/mobile/form.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/image-content.js":
+/*!************************************!*\
+  !*** ./js/mobile/image-content.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"imageContent\": () => (/* binding */ imageContent)\n/* harmony export */ });\nlet imageContent = () => {\r\n    document.querySelectorAll(\".drop-zone__input\").forEach((inputElement) => {\r\n        const dropZoneElement = inputElement.closest(\".drop-zone\");\r\n\r\n        dropZoneElement.addEventListener(\"click\", (e) => {\r\n            inputElement.click();\r\n        });\r\n\r\n        inputElement.addEventListener(\"change\", (e) => {\r\n            if (inputElement.files.length) {\r\n                updateThumbnail(dropZoneElement, inputElement.files[0]);\r\n            }\r\n        });\r\n\r\n        dropZoneElement.addEventListener(\"dragover\", (e) => {\r\n            e.preventDefault();\r\n            dropZoneElement.classList.add(\"drop-zone--over\");\r\n        });\r\n\r\n        [\"dragleave\", \"dragend\"].forEach((type) => {\r\n            dropZoneElement.addEventListener(type, (e) => {\r\n                dropZoneElement.classList.remove(\"drop-zone--over\");\r\n            });\r\n        });\r\n\r\n        dropZoneElement.addEventListener(\"drop\", (e) => {\r\n            e.preventDefault();\r\n\r\n            if (e.dataTransfer.files.length) {\r\n                inputElement.files = e.dataTransfer.files;\r\n                updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);\r\n            }\r\n\r\n            dropZoneElement.classList.remove(\"drop-zone--over\");\r\n        });\r\n    });\r\n\r\n    /**\r\n     * Updates the thumbnail on a drop zone element.\r\n     *\r\n     * @param {HTMLElement} dropZoneElement\r\n     * @param {File} file\r\n     */\r\n    function updateThumbnail(dropZoneElement, file) {\r\n        let thumbnailElement = dropZoneElement.querySelector(\".drop-zone__thumb\");\r\n\r\n        // First time - remove the prompt\r\n        if (dropZoneElement.querySelector(\".drop-zone__prompt\")) {\r\n            dropZoneElement.querySelector(\".drop-zone__prompt\").remove();\r\n        }\r\n\r\n        // First time - there is no thumbnail element, so lets create it\r\n        if (!thumbnailElement) {\r\n            thumbnailElement = document.createElement(\"div\");\r\n            thumbnailElement.classList.add(\"drop-zone__thumb\");\r\n            dropZoneElement.appendChild(thumbnailElement);\r\n        }\r\n\r\n        thumbnailElement.dataset.label = file.name;\r\n\r\n        // Show thumbnail for image files\r\n        if (file.type.startsWith(\"image/\")) {\r\n            const reader = new FileReader();\r\n\r\n            reader.readAsDataURL(file);\r\n            reader.onload = () => {\r\n                thumbnailElement.style.backgroundImage = `url('${reader.result}')`;\r\n            };\r\n        } else {\r\n            thumbnailElement.style.backgroundImage = null;\r\n        }\r\n    }\r\n}\n\n//# sourceURL=webpack:///./js/mobile/image-content.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/notify.js":
+/*!*****************************!*\
+  !*** ./js/mobile/notify.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"notify\": () => (/* binding */ notify)\n/* harmony export */ });\nlet notify = () => {\r\n\r\n    document.addEventListener('message', (event => {\r\n\r\n        let notify = document.getElementById('notify');\r\n        let notificationMessage = document.getElementById('notification-message');\r\n\r\n        notificationMessage.innerHTML = event.detail.text;\r\n        notify.classList.add(event.detail.type);\r\n        notify.classList.add('active');\r\n\r\n        setTimeout(() => {\r\n\r\n            notify.classList.remove('active');\r\n            notify.classList.remove(event.detail.type);\r\n        }, 5000);\r\n\r\n    }));\r\n}\n\n//# sourceURL=webpack:///./js/mobile/notify.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/select.js":
+/*!*****************************!*\
+  !*** ./js/mobile/select.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"renderSelects\": () => (/* binding */ renderSelects)\n/* harmony export */ });\nlet renderSelects = () => {\r\n    \r\n    let selectsRelated = document.querySelectorAll('.select-related');\r\n    let messages = document.querySelectorAll('.message');\r\n\r\n    selectsRelated.forEach(selectRelated => {\r\n    \r\n        selectRelated.addEventListener(\"change\", () => {\r\n                    \r\n            messages.forEach(message => {\r\n            \r\n                if(selectRelated.value == message.dataset.num){\r\n                    message.classList.add('active');\r\n                }else{\r\n                    message.classList.remove('active');\r\n                }\r\n            });\r\n        });\r\n    });\r\n}\r\n\n\n//# sourceURL=webpack:///./js/mobile/select.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/sume-rest.js":
+/*!********************************!*\
+  !*** ./js/mobile/sume-rest.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"sumeRest\": () => (/* binding */ sumeRest)\n/* harmony export */ });\nlet sumeRest = () => {\r\n\r\n    let restas = document.querySelectorAll(\".rest\");\r\n    let sumas = document.querySelectorAll(\".sume\");\r\n\r\n    sumas.forEach(suma => {\r\n\r\n        suma.addEventListener(\"click\", () => {\r\n\r\n            let contador = suma.closest('.box-plus-minus').querySelector('.plus-minus-input');\r\n            contador.value  = (parseInt(contador.value) + 1);\r\n            \r\n        });\r\n    });\r\n\r\n    restas.forEach(resta => {\r\n\r\n        resta.addEventListener(\"click\", () => {\r\n\r\n            let contador = resta.closest('.box-plus-minus').querySelector('.plus-minus-input');\r\n\r\n            if (contador.value > 1) {\r\n\r\n                contador.value = (parseInt(contador.value) - 1);\r\n            }\r\n        });\r\n    });\r\n}\n\n//# sourceURL=webpack:///./js/mobile/sume-rest.js?");
+
+/***/ }),
+
+/***/ "./js/mobile/tab.js":
+/*!**************************!*\
+  !*** ./js/mobile/tab.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"tabBar\": () => (/* binding */ tabBar)\n/* harmony export */ });\nlet tabBar = () => {\r\n\r\n    let tabs = document.querySelectorAll('.tab');\r\n    let tabsContent = document.querySelectorAll('.tab-content');\r\n\r\n    tabs.forEach(tab => {\r\n\r\n        tab.addEventListener('click', () => {\r\n\r\n            tabsContent.forEach(tabContent => {\r\n\r\n                tabContent.classList.remove('active');\r\n\r\n                if (tabContent.dataset.num == tab.dataset.num) {\r\n                    tabContent.classList.add('active');\r\n                }\r\n            });\r\n\r\n            tabs.forEach(tab => {\r\n\r\n                tab.classList.remove('active');\r\n            });\r\n\r\n            tab.classList.add('active');\r\n        });\r\n\r\n    });\r\n}\r\n\n\n//# sourceURL=webpack:///./js/mobile/tab.js?");
 
 /***/ }),
 
@@ -225,7 +236,7 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\n!functio
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./js/app.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./js/app-mobile.js");
 /******/ 	
 /******/ })()
 ;

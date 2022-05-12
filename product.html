@@ -176,16 +176,14 @@
                         <div class="product-text-price">
                             <span> 35€ entrada general</span>
                         </div>
-                        <div class="box-select">
-                            <div class="box-select-options">
-                                <select name="product" class="select-related">
-                                    <option value="description" selected>Descripción</option>
-                                    <option value="features">Características</option>
-                                    <option value="opinions">Opiniones</option>
-                                </select>
-                            </div>
-                            <div class="box-select-content">
-                                <div  name="description" class="select-related-options active" data-related="description">
+                        <div class="box-element">
+                            <select class="select-related">
+                                <option value="one" selected>Descripción</option>
+                                <option value="two">Características</option>
+                                <option value="three">Opiniones</option>
+                            </select>
+                            <div class="box-message">
+                                <div class="message active" data-num="one">
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting
                                         industry. Lorem Ipsum has been the industry's standard dummy
@@ -199,7 +197,7 @@
                                         versions of Lorem Ipsum.
                                     </p>
                                 </div>
-                                <div name="features" class="select-related-options" data-related="features">
+                                <div class="message" data-num="two">
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting
                                         industry. Lorem Ipsum has been the industry's standard dummy
@@ -209,7 +207,7 @@
                                         electronic typesetting, remaining essentially unchanged.
                                     </p>
                                 </div>
-                                <div name="opinions" class="select-related-options" data-related="opinions">
+                                <div class="message" data-num="three">
                                     <p>
                                         Lorem Ipsum is simply dummy text of the printing and typesetting
                                         industry. Lorem Ipsum has been the industry's standard dummy.
@@ -244,10 +242,10 @@
                                 <button>Comprar entradas</button>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </div>
     </main>
     <footer>
         <div class="footer">
@@ -404,7 +402,8 @@
         </div>
     </footer>
 
-    <script type="module" src="dist/app.js"></script>
+    <!-- <script type="module" src="dist/app.js"></script> -->
+    <script type="module" src="dist/app-mobile.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({

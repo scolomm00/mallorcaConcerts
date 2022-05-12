@@ -1,19 +1,18 @@
-export let renderSelects = () =>{
-
+export let renderSelects = () => {
+    
     let selectsRelated = document.querySelectorAll('.select-related');
+    let messages = document.querySelectorAll('.message');
 
     selectsRelated.forEach(selectRelated => {
     
         selectRelated.addEventListener("change", () => {
-    
-            let selectRelatedOptions = selectRelated.closest('.box-select').querySelectorAll('.select-related-options');
-    
-            selectRelatedOptions.forEach(selectRelatedOption => {
+                    
+            messages.forEach(message => {
             
-                if(selectRelated.value == selectRelatedOption.dataset.related){
-                    selectRelatedOption.classList.add('active');
+                if(selectRelated.value == message.dataset.num){
+                    message.classList.add('active');
                 }else{
-                    selectRelatedOption.classList.remove('active');
+                    message.classList.remove('active');
                 }
             });
         });

@@ -1,9 +1,8 @@
 export let form = () => {
 
-    let storeButton = document.getElementById('store-button');
+    let storeButtons = document.querySelectorAll('.store-button');
 
-    if (storeButton) {
-
+    storeButtons.forEach(storeButton => {
         storeButton.addEventListener('click', (event) => {
 
             event.preventDefault();
@@ -15,5 +14,5 @@ export let form = () => {
                 }
             }));
         });
-    }
+    })
 }

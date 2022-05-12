@@ -68,11 +68,14 @@
     .admin-panel-form {
 
         margin-top: 2%;
+        width: 100%;
+        
 
         .form-element {
 
             padding-top: 1rem;
             width: 100%;
+            margin-left: 5%;
 
             .form-element-label {
 
@@ -98,14 +101,14 @@
 
         .form-button {
 
-            padding-top: 60%;
+            padding-top: 5%;
             display: flex;
             justify-content: center;
             padding-right: 0.5rem;
             width: 100%;
-            padding-bottom: 20%;
+            margin-bottom: 30%;
 
-            .form-button-create {
+            .form-button-reset {
 
                 padding-right: 2rem;
                 width: 50%;
@@ -114,7 +117,7 @@
 
                     display: flex;
                     padding: 0.5rem;
-                    width: 11.5rem;
+                    width: 8rem;
 
                     svg {
 

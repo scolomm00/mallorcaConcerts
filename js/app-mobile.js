@@ -7,7 +7,7 @@ import {form} from './mobile/form.js';
 import {renderCkeditor} from './mobile/ckeditor.js';
 import {renderFaqs} from './mobile/faqs.js';
 import {renderSelects} from './mobile/select.js';
-
+import {imageContent} from './mobile/image-content.js';
 
 burgerButton();
 filterBar();
@@ -18,3 +18,4 @@ form();
 renderCkeditor();
 renderFaqs();
 renderSelects();
+imageContent();

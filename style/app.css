@@ -2077,26 +2077,26 @@ header {
   padding-right: 0.5rem;
   width: 85%;
 }
-.admin-panel .admin-panel-form .form-button .form-button-create {
+.admin-panel .admin-panel-form .form-button .form-button-reset {
   padding-right: 2rem;
   width: 50%;
 }
-.admin-panel .admin-panel-form .form-button .form-button-create button {
+.admin-panel .admin-panel-form .form-button .form-button-reset button {
   display: flex;
   padding: 0.5rem;
-  width: 11.5rem;
+  width: 9rem;
   border-radius: 10px;
   background-color: hsla(0deg, 0%, 0%, 0.548);
   color: hsl(0deg, 0%, 100%);
   border: 2px solid hsl(0deg, 0%, 100%);
   font-weight: 900;
 }
-.admin-panel .admin-panel-form .form-button .form-button-create button svg {
+.admin-panel .admin-panel-form .form-button .form-button-reset button svg {
   width: 1.5rem;
   height: 1.5rem;
   padding-right: 0.5rem;
 }
-.admin-panel .admin-panel-form .form-button .form-button-create button:hover {
+.admin-panel .admin-panel-form .form-button .form-button-reset button:hover {
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
 }
